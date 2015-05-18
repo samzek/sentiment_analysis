@@ -7,7 +7,7 @@ from SentiAnalisys import senti_analisys
 
 def main():
 
-    tweetB = "Sono davvero arrabbiata perchè il progetto d'esame non ha senso"
+    tweetB = "the film,however,is all good"
     print "Italian tweet ",tweetB
 
     tweetLower = tweetB.lower()
@@ -17,12 +17,12 @@ def main():
     print lng
 
     #translation
-    gs = goslate.Goslate()
-    translateTweet = gs.translate(tweetLower,'en')
-    print "Translate tweet",translateTweet
+   # gs = goslate.Goslate()
+   # translateTweet = gs.translate(tweetLower,'en')
+    #print "Translate tweet",translateTweet
 
     #preprocessing
-    tokens =  Preprocess(translateTweet)
+    tokens =  Preprocess(tweetLower)
 
     #SentiWordNet
     senti_analisys(tokens)
