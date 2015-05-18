@@ -3,9 +3,11 @@
 import goslate;
 from DetectLanguage import get_language
 from Preprocessing import Preprocess
+from SentiAnalisys import senti_analisys
+
 def main():
 
-    tweetB = "Pronti a discutere merito di tutto, con tutti. Ma dopo aver discusso, si decide. L'Italia non può più perdere tempo"
+    tweetB = "Sono davvero arrabbiata perchè il progetto d'esame non ha senso"
     print "Italian tweet ",tweetB
 
     tweetLower = tweetB.lower()
@@ -20,9 +22,10 @@ def main():
     print "Translate tweet",translateTweet
 
     #preprocessing
-    print Preprocess(translateTweet)
+    tokens =  Preprocess(translateTweet)
 
     #SentiWordNet
+    senti_analisys(tokens)
     
 
 
