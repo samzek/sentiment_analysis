@@ -1,15 +1,30 @@
 #-*- coding: utf-8 -*-
 
-
+import goslate;
+from DetectLanguage import get_language
+from Preprocessing import Preprocess
 def main():
-    tweetB = "When it comes to a woman's health, no politician should get to decide what's best for you"
-    print "English tweet ",tweetB
-    #detect lang
-    lng = get_language(tweetB)
+
+    tweetB = "Pronti a discutere merito di tutto, con tutti. Ma dopo aver discusso, si decide. L'Italia non può più perdere tempo"
+    print "Italian tweet ",tweetB
+
+    tweetLower = tweetB.lower()
+
+    #language detection
+    lng = get_language(tweetLower)
     print lng
-    #translate
-    translateTweet = translate(lng)
+
+    #translation
+    gs = goslate.Goslate()
+    translateTweet = gs.translate(tweetLower,'en')
     print "Translate tweet",translateTweet
+
+    #preprocessing
+    print Preprocess(translateTweet)
+
+    #SentiWordNet
+    
+
 
 if __name__ == '__main__':
     main()
