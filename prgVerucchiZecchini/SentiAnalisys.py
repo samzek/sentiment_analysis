@@ -40,5 +40,12 @@ def senti_analisys(tokens):
     scoreNegNorm = scoreNegTot / count
     scoreObjNorm = scoreObjTot / count
 
-    print "tweet value:",scorePosNorm,scoreNegNorm,scoreObjNorm
+    if scoreNegNorm < scorePosNorm :
+        print "tweet value: POSITIVE"
+    else:
+        if scoreNegNorm > scorePosNorm:
+            print "tweet value: NEGATIVE"
+        else:
+            print "tweet value: OBJECTIVE"
+    #print "tweet value:",scorePosNorm,scoreNegNorm,scoreObjNorm
 
