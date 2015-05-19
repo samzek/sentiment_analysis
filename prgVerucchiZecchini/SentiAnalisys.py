@@ -7,7 +7,7 @@ from nltk import word_tokenize
 
 #Vedi documento proposto dai prof per calcolo score
 def senti_analisys(tokens):
-    print tokens
+    #print tokens
     scorePosTot = 0
     scoreNegTot = 0
     scoreObjTot = 0
@@ -29,7 +29,7 @@ def senti_analisys(tokens):
             scoreNeg = scoreNeg / dim_synset
             scoreObj = scoreObj / dim_synset
 
-            print token,scorePos,scoreNeg,scoreObj
+            #print token,scorePos,scoreNeg,scoreObj
 
             scorePosTot += scorePos
             scoreNegTot += scoreNeg
@@ -42,9 +42,12 @@ def senti_analisys(tokens):
 
     if scoreNegNorm < scorePosNorm :
         print "tweet value: POSITIVE"
+        return 1
     elif scoreNegNorm > scorePosNorm:
         print "tweet value: NEGATIVE"
+        return 0
     else:
         print "tweet value: OBJECTIVE"
+        return -1
     #print "tweet value:",scorePosNorm,scoreNegNorm,scoreObjNorm
 

@@ -28,7 +28,7 @@ def Preprocess(tweet):
 
 
     porter = nltk.PorterStemmer()
-    print [porter.stem(t) for t,part in tokens_no_stop]
+    #print [porter.stem(t) for t,part in tokens_no_stop]
 
     return tokens_no_stop
 

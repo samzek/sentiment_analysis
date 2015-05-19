@@ -4,16 +4,26 @@ import goslate;
 from DetectLanguage import get_language
 from Preprocessing import Preprocess
 from SentiAnalisys import senti_analisys
-from GetTweet import returnTweets
+from GetTweet import returnTweets,returnMood
+
+
+
+def calc_precision_recall(docatt,totdoc,totdocatt):
+    #Precision: numero di documenti attinenti trovati / totale documenti recuperati
+    precision = docatt / float(totdoc) * 100
+    print "PRECISION: ", precision,"%"
+    #Recall: numero di documenti attinenti trovati / totale documenti attinenti esistenti
+    recall = docatt / float(totdocatt) * 100
+    print "RECALL", recall,"%"
 
 def main():
+    docAtt = 0
+    totdoc = 0
+    totdocAtt = 5
 
-<<<<<<< HEAD
-    tweetB = "Mike Boisner pitched an oustanding game today"
-    print "Italian tweet ",tweetB
-=======
+    count = 0
     tweets = returnTweets()
->>>>>>> bf4df565107184f78abf718c433dd8c274cab24e
+    mood = returnMood()
 
     for t in tweets:
         print "Original tweet ",t
@@ -33,9 +43,14 @@ def main():
         tokens =  Preprocess(translateTweet)
 
         #SentiWordNet
-        senti_analisys(tokens)
-
-
+        tweetValue = senti_analisys(tokens)
+        if tweetValue == 1 and tweetValue == int(mood[count]):
+            docAtt+=1
+            totdoc+=1
+        elif tweetValue == 0 and tweetValue != int(mood[count]):
+            totdoc += 1
+        count += 1
+    calc_precision_recall(docAtt,totdoc,totdocAtt)
 
 if __name__ == '__main__':
     main()
