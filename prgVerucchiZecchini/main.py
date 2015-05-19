@@ -65,27 +65,27 @@ def main():
         #SentiWordNet
         print "Results without stemming : ",
         tweetValue = senti_analisys(tokens)
-        docAtt[0],totdoc[0] = check(tweetValue,docAtt[0],totdoc[0],int(mood[count]),1,0)
-        docAtt[1],totdoc[1] = check(tweetValue,docAtt[1],totdoc[1],int(mood[count]),0,1)
+        docAtt[0],totdoc[0] = check(tweetValue,docAtt[0],totdoc[0],int(mood[count]),1,-1)
+        docAtt[1],totdoc[1] = check(tweetValue,docAtt[1],totdoc[1],int(mood[count]),-1,1)
 
         retrMoods.append(tweetValue)
 
         print "Results with stemming : ",
         tweetValue = senti_analisys(tokens_stemmed)
-        docAtt[2],totdoc[2] = check(tweetValue,docAtt[2],totdoc[2],int(mood[count]),1,0)
-        docAtt[3],totdoc[3] = check(tweetValue,docAtt[3],totdoc[3],int(mood[count]),0,1)
+        docAtt[2],totdoc[2] = check(tweetValue,docAtt[2],totdoc[2],int(mood[count]),1,-1)
+        docAtt[3],totdoc[3] = check(tweetValue,docAtt[3],totdoc[3],int(mood[count]),-1,1)
 
         retrMoodsS.append(tweetValue)
 
         count += 1
 
-
+    #precision and removal
     resCase = ["POSITIVE : ","NEGATIVE : ","POSITIVE STEMMED : ","NEGATIVE STEMMED: "]
     for i in xrange(4):
         print resCase[i]
         calc_precision_recall(docAtt[i],totdoc[i],totdocAtt[i])
 
-
+    #graphic plot
     plotMoodline(returnDates(),retrMoods)
     plotMoodline(returnDates(),retrMoodsS)
 

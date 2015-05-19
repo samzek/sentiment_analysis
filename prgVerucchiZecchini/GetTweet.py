@@ -44,7 +44,7 @@ def returnNNeg():
     f = open("test.txt")
     for i in f.read().splitlines():
         line = i.split("|")
-        if int(line[1]) == 0:
+        if int(line[1]) == -1:
             n_neg += 1
     f.close()
     return n_neg
