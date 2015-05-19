@@ -26,17 +26,10 @@ def Preprocess(tweet):
         if not t in stopwords.words('english'):
           tokens_no_stop.append((wnl.lemmatize(t),part))
 
-    return tokens_no_stop
 
-    """
     porter = nltk.PorterStemmer()
     print [porter.stem(t) for t,part in tokens_no_stop]
 
+    return tokens_no_stop
 
-    lancaster = nltk.LancasterStemmer()
-    print [lancaster.stem(t) for t in tokens_no_stop]
 
-    snowball = nltk.SnowballStemmer("english")
-    print [snowball.stem(t) for t in tokens_no_stop]
-
-    """

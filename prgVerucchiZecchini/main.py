@@ -7,7 +7,7 @@ from SentiAnalisys import senti_analisys
 
 def main():
 
-    tweetB = "the film,however,is all good"
+    tweetB = "Mike Boisner pitched an oustanding game today"
     print "Italian tweet ",tweetB
 
     tweetLower = tweetB.lower()
