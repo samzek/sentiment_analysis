@@ -27,9 +27,12 @@ def Preprocess(tweet):
           tokens_no_stop.append((wnl.lemmatize(t),part))
 
 
-    porter = nltk.PorterStemmer()
-    #print [porter.stem(t) for t,part in tokens_no_stop]
+    tokens_stemmed = []
 
-    return tokens_no_stop
+    porter = nltk.PorterStemmer()
+    for t,part in tokens_no_stop:
+        tokens_stemmed.append((porter.stem(t),part))
+
+    return tokens_no_stop, tokens_stemmed
 
 
