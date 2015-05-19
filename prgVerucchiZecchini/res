@@ -1,74 +1,52 @@
 Original tweet  Oggi è proprio una bella giornata 
 spanish
 Translate tweet Today is a beautiful day
-[(u'Today', 'NN'), (u'beautiful', 'JJ'), (u'day', 'NN')]
-Today 0.09375 0.0 0.90625
-beautiful 0.75 0.0 0.25
-day 0.05 0.0 0.95
-tweet value: POSITIVE
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
 Original tweet  Sono felice di essere stato scelto per l'hackathon di Cervia 
 italian
 Translate tweet I'm happy to have been chosen for the hackathon cervia
-[(u'I', 'PRP'), (u"'m", 'VBP'), (u'happy', 'JJ'), (u'chosen', 'VBN'), (u'hackathon', 'NN'), (u'cervia', 'NN')]
-I 0.0 0.0 1.0
-happy 0.875 0.0 0.125
-chosen 0.0 0.0 1.0
-tweet value: POSITIVE
+Results without stemming :  POSITIVE
+Results with stemming :  OBJECTIVE
 Original tweet  Abbiamo perso ma è stata un'esperienza molto divertente 
 italian
 Translate tweet we lost but it was a very fun
-[(u'lost', 'VBD'), (u'fun', 'VBN')]
-lost 0.0 0.3 0.7
-fun 0.125 0.15625 0.71875
-tweet value: NEGATIVE
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
 Original tweet  Oggi va tutto storto! 
 italian
 Translate tweet Today everything goes wrong!
-[(u'Today', 'NN'), (u'everything', 'NN'), (u'go', 'VBZ'), (u'wrong', 'JJ')]
-Today 0.09375 0.0 0.90625
-go 0.0214285714286 0.00357142857143 0.975
-wrong 0.0892857142857 0.607142857143 0.303571428571
-tweet value: NEGATIVE
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
 Original tweet  A giocare a calcio mi sono storto una caviglia, accidenti! 
 italian
 Translate tweet playing football I twisted an ankle, damn!
-[(u'playing', 'NN'), (u'football', 'NN'), (u'I', 'PRP'), (u'twisted', 'VBD'), (u'ankle', 'NN'), (u'damn', 'NN')]
-playing 0.0361842105263 0.00657894736842 0.957236842105
-football 0.0 0.0 1.0
-I 0.0 0.0 1.0
-twisted 0.0 0.0 1.0
-ankle 0.0 0.0 1.0
-damn 0.0833333333333 0.291666666667 0.625
-tweet value: NEGATIVE
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
 Original tweet  E' il giorno più bello della mia vita : la Juve è in finale 
 italian
 Translate tweet and 'the best day of my life: Juve is in final
-[(u"'the", 'DT'), (u'best', 'JJS'), (u'day', 'NN'), (u'life', 'NN'), (u'Juve', 'NNP'), (u'final', 'JJ')]
-best 0.414869565217 0.025347826087 0.559782608696
-day 0.05 0.0 0.95
-life 0.0178571428571 0.0 0.982142857143
-final 0.0 0.0 1.0
-tweet value: POSITIVE
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
 Original tweet  Sono davvero desolato di non poter più vedere LLR tutti i giorni 
 italian
 Translate tweet I'm really sorry for not being able to see LLR every day
-[(u'I', 'PRP'), (u"'m", 'VBP'), (u'really', 'RB'), (u'sorry', 'JJ'), (u'able', 'JJ'), (u'see', 'VB'), (u'LLR', 'NNP'), (u'every', 'DT'), (u'day', 'NN')]
-I 0.0 0.0 1.0
-really 0.4375 0.0625 0.5
-sorry 0.0 0.625 0.375
-able 0.125 0.0 0.875
-see 0.045 0.005 0.95
-day 0.05 0.0 0.95
-tweet value: NEGATIVE
+Results without stemming :  NEGATIVE
+Results with stemming :  POSITIVE
 Original tweet  Oggi ho mangiato un kebab con Paolo ed è stato davvero emozionante 
 italian
 Translate tweet Today I ate a kebab with paul and it was really exciting
-[(u'Today', 'NN'), (u'I', 'PRP'), (u'ate', 'VBP'), (u'kebab', 'NN'), (u'paul', 'JJ'), (u'really', 'RB'), (u'exciting', 'VBG')]
-Today 0.09375 0.0 0.90625
-I 0.0 0.0 1.0
-ate 0.0357142857143 0.0 0.964285714286
-kebab 0.0 0.0 1.0
-paul 0.0 0.0625 0.9375
-really 0.4375 0.0625 0.5
-exciting 0.180555555556 0.194444444444 0.625
-tweet value: POSITIVE
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+POSITIVE : 
+	PRECISION:  100.0 %
+	RECALL 80.0 %
+NEGATIVE : 
+	PRECISION:  75.0 %
+	RECALL 100.0 %
+POSITIVE STEMMED : 
+	PRECISION:  75.0 %
+	RECALL 60.0 %
+NEGATIVE STEMMED: 
+	PRECISION:  66.6666666667 %
+	RECALL 66.6666666667 %
