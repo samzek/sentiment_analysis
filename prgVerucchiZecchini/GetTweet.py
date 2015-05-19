@@ -20,6 +20,15 @@ def returnMood():
     f.close()
     return m
 
+def returnDates():
+    f = open("test.txt")
+    d = []
+    for i in f.read().splitlines():
+        line = i.split("|")
+        d.append( line[2])
+    f.close()
+    return d
+
 def returnNPos():
     n_pos = 0
     f = open("test.txt")

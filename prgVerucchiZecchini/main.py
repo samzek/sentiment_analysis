@@ -1,10 +1,11 @@
 #-*- coding: utf-8 -*-
 
-import goslate;
+import goslate
 from DetectLanguage import get_language
 from Preprocessing import Preprocess
 from SentiAnalisys import senti_analisys
-from GetTweet import returnTweets,returnMood,returnNNeg,returnNPos
+from GetTweet import returnTweets,returnMood,returnNNeg,returnNPos, returnDates
+from Plot import plotMoodline
 
 
 def check(tweetValue,docAtt,totdoc,realValue,t,f):
@@ -19,7 +20,7 @@ def check(tweetValue,docAtt,totdoc,realValue,t,f):
         if tweetValue == realValue:
             totdoc += 1
 
-    return  docAtt, totdoc
+    return docAtt, totdoc
 
 def calc_precision_recall(docatt,totdoc,totdocatt):
     #Precision: numero di documenti attinenti trovati / totale documenti recuperati
@@ -34,13 +35,15 @@ def calc_precision_recall(docatt,totdoc,totdocatt):
 def main():
 
     #0 : positive       1: negative     2: positive and stemmed     3: negative and stemmed
-    docAtt = [0,0,0,0]      #recuperati
-    totdoc = [0,0,0,0]      #intersezione
+    docAtt = [0,0,0,0]  #recuperati
+    totdoc = [0,0,0,0]  #intersezione
     totdocAtt = [returnNPos(),returnNNeg(),returnNPos(),returnNNeg()]   #attinenti
 
     count = 0
     tweets = returnTweets()
     mood = returnMood()
+    retrMoods = []
+    retrMoodsS = []
 
     for t in tweets:
         print "Original tweet ",t
@@ -65,10 +68,14 @@ def main():
         docAtt[0],totdoc[0] = check(tweetValue,docAtt[0],totdoc[0],int(mood[count]),1,0)
         docAtt[1],totdoc[1] = check(tweetValue,docAtt[1],totdoc[1],int(mood[count]),0,1)
 
+        retrMoods.append(tweetValue)
+
         print "Results with stemming : ",
         tweetValue = senti_analisys(tokens_stemmed)
         docAtt[2],totdoc[2] = check(tweetValue,docAtt[2],totdoc[2],int(mood[count]),1,0)
         docAtt[3],totdoc[3] = check(tweetValue,docAtt[3],totdoc[3],int(mood[count]),0,1)
+
+        retrMoodsS.append(tweetValue)
 
         count += 1
 
@@ -79,5 +86,10 @@ def main():
         calc_precision_recall(docAtt[i],totdoc[i],totdocAtt[i])
 
 
+    """
+    DA FIXARE la fuinzione nella Plot
+    plotMoodline(retrMoods,returnDates())
+    plotMoodline(retrMoodsS,returnDates())
+    """
 if __name__ == '__main__':
     main()
