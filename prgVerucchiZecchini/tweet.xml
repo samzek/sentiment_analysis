@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='ASCII'?>
+<tweet_collection>
+  <tweet>
+    <Original_tweet>Questa e' una prova</Original_tweet>
+    <Translate_tweet>This is a test</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+</tweet_collection>
