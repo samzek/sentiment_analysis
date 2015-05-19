@@ -86,10 +86,8 @@ def main():
         calc_precision_recall(docAtt[i],totdoc[i],totdocAtt[i])
 
 
-    """
-    DA FIXARE la fuinzione nella Plot
-    plotMoodline(retrMoods,returnDates())
-    plotMoodline(retrMoodsS,returnDates())
-    """
+    plotMoodline(returnDates(),retrMoods)
+    plotMoodline(returnDates(),retrMoodsS)
+
 if __name__ == '__main__':
     main()
