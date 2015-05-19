@@ -93,15 +93,120 @@ italian
 Translate tweet I'm sick of writing random sentences to populate the database
 Results without stemming :  NEGATIVE
 Results with stemming :  NEGATIVE
+Original tweet  Quando non ci si può guadagnare il pane, si perde la dignità. Questo è un dramma di oggi, specialmente per i giovani 
+italian
+Translate tweet when you can not earn your bread, you lose your dignity. This is a drama of today, especially for young people
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  I fedeli laici sono chiamati a diventare fermento di vita cristiana in tutta la società. 
+italian
+Translate tweet the lay faithful are called to be leaven in the whole society.
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Se noi siamo troppo attaccati alla ricchezza, non siamo liberi. Siamo schiavi 
+italian
+Translate tweet if we are too attached to the wealth, we are not free. we are slaves
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  L’école de la République, c’est l'école qui amène un enfant d’une famille modeste à l’excellence 
+french
+Translate tweet school of the republic, it is the school that takes a child from a modest family to excellence
+Results without stemming :  POSITIVE
+Results with stemming :  NEGATIVE
+Original tweet  Alitalia divorzia da Air France: nel 2017 fine della partnership 
+italian
+Translate tweet alitalia divorces air france: in 2017 the end of the partnership
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Il 96% delle aziende confiscate alla mafia fallisce. Servono manager adeguati 
+italian
+Translate tweet 96% of businesses confiscated from the mafia fails. managers need adequate
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Borsa, le blue chip battono le stime 
+french
+Translate tweet bag, blue chips beat estimates
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  in sei anni di crisi poveri cresciuti da 11 a 15 milioni 
+italian
+Translate tweet in six years of crisis poor grew from 11 million to 15 million
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Riforma scuola, la Camera dice sì allo school bonus 
+italian
+Translate tweet Reform school, the chamber says yes to school bonus
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Borse europee in crescita. L’euro in calo 
+german
+Translate tweet European shares rise. the euro down
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Mps raggruppa le azioni, il titolo cade in Borsa 
+italian
+Translate tweet mps groups the shares, the stock falls in stock market
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  L’Fmi alza le stime di crescita per l’Italia 
+italian
+Translate tweet the IMF raises growth forecast for Italy
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Finalmente la verità. Oggi è una bella giornata per la politica, per la giustizia, per lo stato di diritto. 
+italian
+Translate tweet finally the truth. Today is a beautiful day for politics, for justice, for the rule of law.
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Sono vicino alle famiglie delle vittime e dei feriti e ai nostri uomini in divisa rimasti coinvolti oggi nella sparatoria a Napoli 
+italian
+Translate tweet They are close to the families of those killed and injured and to our men in uniform were involved in the shooting today in Naples
+Results without stemming :  NEGATIVE
+Results with stemming :  POSITIVE
+Original tweet  Cinque anni alla guida della Juve. Buon anniversario Presidente!!! 
+italian
+Translate tweet five years at the helm of juve. happy anniversary President !!!
+Results without stemming :  POSITIVE
+Results with stemming :  OBJECTIVE
+Original tweet  Oggi nel kebab c'erano dei capelli, che schifo 
+italian
+Translate tweet today in the kebab he had hair, yuck
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Nepal, nuovo terremoto di magnitudo 7.4 
+norwegian
+Translate tweet nepal, new earthquake of magnitude 7.4
+Results without stemming :  NEGATIVE
+Results with stemming :  POSITIVE
+Original tweet  Molotov e bombe carta dai black bloc, un disastro a milano 
+italian
+Translate tweet molotov bombs and paper by black bloc, a disaster in milan
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Scuola: 5 per mille stralciato dalla riforma 
+italian
+Translate tweet school: 5 per thousand dropped by the reform
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Non passerò mai analisi matematica 1 
+italian
+Translate tweet I would never pass calculus 1
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Ora trovare modo di assumere più precari 
+norwegian
+Translate tweet now find a way to hire more temporary workers
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
 POSITIVE : 
-	PRECISION:  80.0 %
-	RECALL 80.0 %
+	PRECISION:  73.9130434783 %
+	RECALL 85.0 %
 NEGATIVE : 
-	PRECISION:  77.7777777778 %
-	RECALL 77.7777777778 %
+	PRECISION:  82.3529411765 %
+	RECALL 70.0 %
 POSITIVE STEMMED : 
-	PRECISION:  70.0 %
+	PRECISION:  60.8695652174 %
 	RECALL 70.0 %
 NEGATIVE STEMMED: 
-	PRECISION:  75.0 %
-	RECALL 66.6666666667 %
+	PRECISION:  73.3333333333 %
+	RECALL 55.0 %
