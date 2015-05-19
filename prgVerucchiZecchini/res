@@ -38,15 +38,70 @@ italian
 Translate tweet Today I ate a kebab with paul and it was really exciting
 Results without stemming :  POSITIVE
 Results with stemming :  POSITIVE
+Original tweet  Sono davvero contento di poter lavorare con un ragazzo ameba! 
+italian
+Translate tweet I'm really happy to be working with a guy amoeba!
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Oggi la corriera era in ritardo di 50 minuti, sono infuriata 
+italian
+Translate tweet Today the bus was delayed by 50 minutes are angry
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Mia sorella mi ha tirato i capelli e mi ha fatto molto male 
+italian
+Translate tweet my sister has pulled her hair and made me very ill
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Oggi una mia amica mi ha portato una buonissima torta alle fragole 
+italian
+Translate tweet Today a friend of mine brought me a delicious strawberry pie
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Non vedo l'ora che inizi il concerto dei miei cantanti preferiti 
+italian
+Translate tweet I can not wait to begin the concert of my favorite singers
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Sono disperato perchè non trovo più le chiavi della macchina 
+italian
+Translate tweet I'm desperate because I can not find my car keys
+Results without stemming :  NEGATIVE
+Results with stemming :  POSITIVE
+Original tweet  Sono davvero arrabbiata perchè mi hanno rubato la borsa
+italian
+Translate tweet I'm really angry because they stole the bag
+Results without stemming :  POSITIVE
+Results with stemming :  NEGATIVE
+Original tweet  Che bello averti incontrata Claudia! 
+italian
+Translate tweet that good to have you met claudia!
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Che gioia questo progetto 
+italian
+Translate tweet joy that this project
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Sono triste perchè il programma non capisce l'ironia 
+italian
+Translate tweet I'm sad because the program does not understand the irony
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Sono stufa di scrivere frasi random per popolare il database
+italian
+Translate tweet I'm sick of writing random sentences to populate the database
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
 POSITIVE : 
-	PRECISION:  100.0 %
+	PRECISION:  80.0 %
 	RECALL 80.0 %
 NEGATIVE : 
-	PRECISION:  75.0 %
-	RECALL 100.0 %
+	PRECISION:  77.7777777778 %
+	RECALL 77.7777777778 %
 POSITIVE STEMMED : 
-	PRECISION:  75.0 %
-	RECALL 60.0 %
+	PRECISION:  70.0 %
+	RECALL 70.0 %
 NEGATIVE STEMMED: 
-	PRECISION:  66.6666666667 %
+	PRECISION:  75.0 %
 	RECALL 66.6666666667 %
