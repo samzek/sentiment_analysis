@@ -19,3 +19,23 @@ def returnMood():
         m.append( line[1])
     f.close()
     return m
+
+def returnNPos():
+    n_pos = 0
+    f = open("test.txt")
+    for i in f.read().splitlines():
+        line = i.split("|")
+        if int(line[1]) == 1:
+            n_pos += 1
+    f.close()
+    return n_pos
+
+def returnNNeg():
+    n_neg = 0
+    f = open("test.txt")
+    for i in f.read().splitlines():
+        line = i.split("|")
+        if int(line[1]) == 0:
+            n_neg += 1
+    f.close()
+    return n_neg
