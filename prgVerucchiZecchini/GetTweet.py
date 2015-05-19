@@ -2,31 +2,25 @@ __author__ = 'micaela'
 # !/usr/bin/env python
 #  -*- coding: utf-8 -*-
 
-def returnTweets():
+def retrieveData(index):
     f = open("test.txt")
-    t = []
+    data = []
     for i in f.read().splitlines():
         line = i.split("|")
-        t.append( line[0])
+        data.append( line[index])
     f.close()
+    return data
+
+def returnTweets():
+    t = retrieveData(0)
     return t
 
 def returnMood():
-    f = open("test.txt")
-    m = []
-    for i in f.read().splitlines():
-        line = i.split("|")
-        m.append( line[1])
-    f.close()
+    m = retrieveData(1)
     return m
 
 def returnDates():
-    f = open("test.txt")
-    d = []
-    for i in f.read().splitlines():
-        line = i.split("|")
-        d.append( line[2])
-    f.close()
+    d = retrieveData(2)
     return d
 
 def returnNPos():
