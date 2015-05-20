@@ -1,21 +1,28 @@
+#  -*- coding: utf-8 -*-
 __author__ = 'sam'
 
 from lxml import etree as ET
-from lxml import objectify
 import sys
 
-ns = ("xmlns:xsi","http://www.w3.org/2001/XMLSchema-instance")
-xi = ("xsi:noSpaceschemaLocation","tweet_collection.xsd")
 
-def create_xml():
-
-    root = ET.Element("tweet_collection")
+def create_xml(root,tweetVal,trantweet,s_nostem,s_stem):
     tweet = ET.SubElement(root,"tweet")
-    ET.SubElement(tweet,"Original_tweet").text="Questa e' una prova"
-    ET.SubElement(tweet,"Translate_tweet").text="This is a test"
-    ET.SubElement(tweet,"Sentiment_nostem").text="POSITIVE"
-    ET.SubElement(tweet,"Sentiment_stem").text="POSITIVE"
+    ET.SubElement(tweet,"Original_tweet").text=tweetVal.decode('utf-8')
+    ET.SubElement(tweet,"Translate_tweet").text=trantweet.decode('utf-8')
+    if s_nostem == 1:
+        ET.SubElement(tweet,"Sentiment_nostem").text="POSITIVE"
+    elif s_nostem == -1:
+        ET.SubElement(tweet,"Sentiment_nostem").text="NEGATIVE"
+    else:
+        ET.SubElement(tweet,"Sentiment_nostem").text="OBJECTIVE"
+    if s_stem == 1:
+        ET.SubElement(tweet,"Sentiment_stem").text="POSITIVE"
+    elif s_stem == -1:
+        ET.SubElement(tweet,"Sentiment_stem").text="NEGATIVE"
+    else:
+        ET.SubElement(tweet,"Sentiment_stem").text="OBJECTIVE"
 
+def write_xml(root):
     tree = ET.ElementTree(root)
     tree.write("tweet.xml",pretty_print=True,xml_declaration=True)
 
@@ -25,12 +32,9 @@ def create_xml():
     for i in xrange(0,len(data)):
         if data[i] == '<tweet_collection>\n':
             data[i] = "<tweet_collection " \
-                      "xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" " \
-                      "xsi:noSpaceschemaLocation=\"tweet_collection.xsd\">\n"
+                      "xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n" \
+                      "xsi:noNamespaceSchemaLocation=\"tweet_collection.xsd\">\n"
             break
 
     with open("tweet.xml",'w') as file:
         file.writelines(data)
-
-if __name__ == '__main__':
-    create_xml()

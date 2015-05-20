@@ -3,7 +3,7 @@
 <xs:element name="tweet_collection">
 <xs:complexType>
 	<xs:sequence>
-		<xs:element ref="tweet" minOccurs="1"/>
+		<xs:element ref="tweet" minOccurs="1" maxOccurs="unbounded"/>
 	</xs:sequence>
 </xs:complexType>
 </xs:element>

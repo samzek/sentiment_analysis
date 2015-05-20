@@ -1,9 +1,256 @@
 <?xml version='1.0' encoding='ASCII'?>
-<tweet_collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noSpaceschemaLocation="tweet_collection.xsd">
+<tweet_collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
   <tweet>
-    <Original_tweet>Questa e' una prova</Original_tweet>
-    <Translate_tweet>This is a test</Translate_tweet>
+    <Original_tweet>oggi &#232; proprio una bella giornata </Original_tweet>
+    <Translate_tweet>Today is a beautiful day</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>sono felice di essere stato scelto per l'hackathon di cervia </Original_tweet>
+    <Translate_tweet>I'm happy to have been chosen for the hackathon cervia</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>abbiamo perso ma &#232; stata un'esperienza molto divertente </Original_tweet>
+    <Translate_tweet>we lost but it was a very fun</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>oggi va tutto storto! </Original_tweet>
+    <Translate_tweet>Today everything goes wrong!</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>a giocare a calcio mi sono storto una caviglia, accidenti! </Original_tweet>
+    <Translate_tweet>playing football I twisted an ankle, damn!</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>e' il giorno pi&#249; bello della mia vita : la juve &#232; in finale </Original_tweet>
+    <Translate_tweet>and 'the best day of my life: Juve is in final</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>sono davvero desolato di non poter pi&#249; vedere llr tutti i giorni </Original_tweet>
+    <Translate_tweet>I'm really sorry for not being able to see LLR every day</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>oggi ho mangiato un kebab con paolo ed &#232; stato davvero emozionante </Original_tweet>
+    <Translate_tweet>Today I ate a kebab with paul and it was really exciting</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>sono davvero contento di poter lavorare con un ragazzo ameba! </Original_tweet>
+    <Translate_tweet>I'm really happy to be working with a guy amoeba!</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>oggi la corriera era in ritardo di 50 minuti, sono infuriata </Original_tweet>
+    <Translate_tweet>Today the bus was delayed by 50 minutes are angry</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>mia sorella mi ha tirato i capelli e mi ha fatto molto male </Original_tweet>
+    <Translate_tweet>my sister has pulled her hair and made me very ill</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>oggi una mia amica mi ha portato una buonissima torta alle fragole </Original_tweet>
+    <Translate_tweet>Today a friend of mine brought me a delicious strawberry pie</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>non vedo l'ora che inizi il concerto dei miei cantanti preferiti </Original_tweet>
+    <Translate_tweet>I can not wait to begin the concert of my favorite singers</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>sono disperato perch&#232; non trovo pi&#249; le chiavi della macchina </Original_tweet>
+    <Translate_tweet>I'm desperate because I can not find my car keys</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>sono davvero arrabbiata perch&#232; mi hanno rubato la borsa</Original_tweet>
+    <Translate_tweet>I'm really angry because they stole the bag</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>che bello averti incontrata claudia! </Original_tweet>
+    <Translate_tweet>that good to have you met claudia!</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>che gioia questo progetto </Original_tweet>
+    <Translate_tweet>joy that this project</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>sono triste perch&#232; il programma non capisce l'ironia </Original_tweet>
+    <Translate_tweet>I'm sad because the program does not understand the irony</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>sono stufa di scrivere frasi random per popolare il database</Original_tweet>
+    <Translate_tweet>I'm sick of writing random sentences to populate the database</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>quando non ci si pu&#242; guadagnare il pane, si perde la dignit&#224;. questo &#232; un dramma di oggi, specialmente per i giovani </Original_tweet>
+    <Translate_tweet>when you can not earn your bread, you lose your dignity. This is a drama of today, especially for young people</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>i fedeli laici sono chiamati a diventare fermento di vita cristiana in tutta la societ&#224;. </Original_tweet>
+    <Translate_tweet>the lay faithful are called to be leaven in the whole society.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>se noi siamo troppo attaccati alla ricchezza, non siamo liberi. siamo schiavi </Original_tweet>
+    <Translate_tweet>if we are too attached to the wealth, we are not free. we are slaves</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>l&#8217;&#233;cole de la r&#233;publique, c&#8217;est l'&#233;cole qui am&#232;ne un enfant d&#8217;une famille modeste &#224; l&#8217;excellence </Original_tweet>
+    <Translate_tweet>school of the republic, it is the school that takes a child from a modest family to excellence</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>alitalia divorzia da air france: nel 2017 fine della partnership </Original_tweet>
+    <Translate_tweet>alitalia divorces air france: in 2017 the end of the partnership</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>il 96% delle aziende confiscate alla mafia fallisce.&#8201;servono manager adeguati </Original_tweet>
+    <Translate_tweet>96% of businesses confiscated from the mafia fails. managers need adequate</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>borsa, le blue chip battono le stime </Original_tweet>
+    <Translate_tweet>bag, blue chips beat estimates</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>in sei anni di crisi poveri cresciuti da 11 a 15 milioni </Original_tweet>
+    <Translate_tweet>in six years of crisis poor grew from 11 million to 15 million</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>riforma scuola, la camera dice s&#236; allo school bonus </Original_tweet>
+    <Translate_tweet>Reform school, the chamber says yes to school bonus</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>borse europee in crescita. l&#8217;euro in calo </Original_tweet>
+    <Translate_tweet>European shares rise. the euro down</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>mps raggruppa le azioni, il titolo cade in borsa </Original_tweet>
+    <Translate_tweet>mps groups the shares, the stock falls in stock market</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>l&#8217;fmi alza le stime di crescita per l&#8217;italia </Original_tweet>
+    <Translate_tweet>the IMF raises growth forecast for Italy</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>finalmente la verit&#224;. oggi &#232; una bella giornata per la politica, per la giustizia, per lo stato di diritto. </Original_tweet>
+    <Translate_tweet>finally the truth. Today is a beautiful day for politics, for justice, for the rule of law.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>sono vicino alle famiglie delle vittime e dei feriti e ai nostri uomini in divisa rimasti coinvolti oggi nella sparatoria a napoli </Original_tweet>
+    <Translate_tweet>They are close to the families of those killed and injured and to our men in uniform were involved in the shooting today in Naples</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>cinque anni alla guida della juve. buon anniversario presidente!!! </Original_tweet>
+    <Translate_tweet>five years at the helm of juve. happy anniversary President !!!</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>oggi nel kebab c'erano dei capelli, che schifo </Original_tweet>
+    <Translate_tweet>today in the kebab he had hair, yuck</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>nepal, nuovo terremoto di magnitudo 7.4 </Original_tweet>
+    <Translate_tweet>nepal, new earthquake of magnitude 7.4</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>molotov e bombe carta dai black bloc, un disastro a milano </Original_tweet>
+    <Translate_tweet>molotov bombs and paper by black bloc, a disaster in milan</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>scuola: 5 per mille stralciato dalla riforma </Original_tweet>
+    <Translate_tweet>school: 5 per thousand dropped by the reform</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>non passer&#242; mai analisi matematica 1 </Original_tweet>
+    <Translate_tweet>I would never pass calculus 1</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>ora trovare modo di assumere pi&#249; precari </Original_tweet>
+    <Translate_tweet>now find a way to hire more temporary workers</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>sono felice felice felicissima, oggi &#232; un giorno bello bellissimo </Original_tweet>
+    <Translate_tweet>I'm happy happy happy, today is a beautiful day beautiful</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>mia mamma &#232; morta e sono tristissima, ho pianto tutto il giorno </Original_tweet>
+    <Translate_tweet>My mother died and are sad, I cried all day</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
   </tweet>
 </tweet_collection>
