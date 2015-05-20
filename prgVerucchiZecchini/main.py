@@ -8,36 +8,28 @@ from GetTweet import returnTweets,returnMood,returnNNeg,returnNPos, returnDates
 from Plot import plotMoodline
 from xml_creator import create_xml
 
-def check(tweetValue,docAtt,totdoc,realValue,t,f):
-    #if tweetValue == t and tweetValue == realValue:
-    #    docAtt+=1
-    #    totdoc+=1
-    #elif tweetValue == f and tweetValue != realValue:
-    #    totdoc += 1
-
+def check(tweetValue,retrieved,intersection,realValue,t):
     if tweetValue == t :
-        docAtt+=1
+        retrieved+=1
         if tweetValue == realValue:
-            totdoc += 1
+            intersection += 1
 
-    return docAtt, totdoc
+    return retrieved, intersection
 
-def calc_precision_recall(docatt,totdoc,totdocatt):
-    #Precision: numero di documenti attinenti trovati / totale documenti recuperati
-    #precision = docatt / float(totdoc) * 100
-    precision = totdoc / float(docatt) *100
+def calc_precision_recall(retrieved,intersection,relevant):
+    #Precision: attinenti intersecato recuperati /recuperati
+    precision = intersection / float(retrieved) *100
     print "\tPRECISION: ", precision,"%"
-    #Recall: numero di documenti attinenti trovati / totale documenti attinenti esistenti
-    #recall = docatt / float(totdocatt) * 100
-    recall = totdoc / float(totdocatt) *100
+    #Recall: attinenti intersecato recuperati /attinenti
+    recall = intersection / float(relevant) *100
     print "\tRECALL", recall,"%"
 
 def main():
 
     #0 : positive       1: negative     2: positive and stemmed     3: negative and stemmed
-    docAtt = [0,0,0,0]  #recuperati
-    totdoc = [0,0,0,0]  #intersezione
-    totdocAtt = [returnNPos(),returnNNeg(),returnNPos(),returnNNeg()]   #attinenti
+    retrieved = [0,0,0,0]  #recuperati
+    intersection = [0,0,0,0]  #intersezione
+    relevant = [returnNPos(),returnNNeg(),returnNPos(),returnNNeg()]   #attinenti
 
     count = 0
     tweets = returnTweets()
@@ -64,18 +56,20 @@ def main():
 
         #SentiWordNet
         print "Results without stemming : ",
-        tweetValue = senti_analisys(tokens)
-        docAtt[0],totdoc[0] = check(tweetValue,docAtt[0],totdoc[0],int(mood[count]),1,-1)
-        docAtt[1],totdoc[1] = check(tweetValue,docAtt[1],totdoc[1],int(mood[count]),-1,1)
+        tweetValue,moodValue = senti_analisys(tokens)
+        retrieved[0],intersection[0] = check(tweetValue,retrieved[0],intersection[0],int(mood[count]),1)
+        #print "valori A, Ra,R POS",retrieved[0],intersection[0],returnNPos()
+        retrieved[1],intersection[1] = check(tweetValue,retrieved[1],intersection[1],int(mood[count]),-1)
+        #print "valori A, Ra,R NEG",retrieved[1],intersection[1],returnNNeg()
 
-        retrMoods.append(tweetValue)
+        retrMoods.append(moodValue)
 
         print "Results with stemming : ",
-        tweetValue = senti_analisys(tokens_stemmed)
-        docAtt[2],totdoc[2] = check(tweetValue,docAtt[2],totdoc[2],int(mood[count]),1,-1)
-        docAtt[3],totdoc[3] = check(tweetValue,docAtt[3],totdoc[3],int(mood[count]),-1,1)
+        tweetValue,moodValue = senti_analisys(tokens_stemmed)
+        retrieved[2],intersection[2] = check(tweetValue,retrieved[2],intersection[2],int(mood[count]),1)
+        retrieved[3],intersection[3] = check(tweetValue,retrieved[3],intersection[3],int(mood[count]),-1)
 
-        retrMoodsS.append(tweetValue)
+        retrMoodsS.append(moodValue)
 
         count += 1
 
@@ -83,10 +77,10 @@ def main():
     resCase = ["POSITIVE : ","NEGATIVE : ","POSITIVE STEMMED : ","NEGATIVE STEMMED: "]
     for i in xrange(4):
         print resCase[i]
-        calc_precision_recall(docAtt[i],totdoc[i],totdocAtt[i])
+        calc_precision_recall(retrieved[i],intersection[i],relevant[i])
 
     #graphic plot
-    #plotMoodline(returnDates(),retrMoods)
+    plotMoodline(returnDates(),retrMoods, retrMoodsS)
     #plotMoodline(returnDates(),retrMoodsS)
     create_xml()
 
