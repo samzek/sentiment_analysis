@@ -198,15 +198,25 @@ norwegian
 Translate tweet now find a way to hire more temporary workers
 Results without stemming :  POSITIVE
 Results with stemming :  POSITIVE
+Original tweet  Sono felice felice felicissima, oggi è un giorno bello bellissimo 
+italian
+Translate tweet I'm happy happy happy, today is a beautiful day beautiful
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Mia mamma è morta e sono tristissima, ho pianto tutto il giorno 
+italian
+Translate tweet My mother died and are sad, I cried all day
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
 POSITIVE : 
-	PRECISION:  73.9130434783 %
-	RECALL 85.0 %
+	PRECISION:  75.0 %
+	RECALL 85.7142857143 %
 NEGATIVE : 
-	PRECISION:  82.3529411765 %
-	RECALL 70.0 %
+	PRECISION:  83.3333333333 %
+	RECALL 71.4285714286 %
 POSITIVE STEMMED : 
-	PRECISION:  60.8695652174 %
-	RECALL 70.0 %
+	PRECISION:  62.5 %
+	RECALL 71.4285714286 %
 NEGATIVE STEMMED: 
-	PRECISION:  73.3333333333 %
-	RECALL 55.0 %
+	PRECISION:  75.0 %
+	RECALL 57.1428571429 %
