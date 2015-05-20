@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='ASCII'?>
-<tweet_collection>
+<tweet_collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noSpaceschemaLocation="tweet_collection.xsd">
   <tweet>
     <Original_tweet>Questa e' una prova</Original_tweet>
     <Translate_tweet>This is a test</Translate_tweet>
