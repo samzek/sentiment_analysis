@@ -6,7 +6,7 @@ from Preprocessing import Preprocess
 from SentiAnalisys import senti_analisys
 from GetTweet import returnTweets,returnMood,returnNNeg,returnNPos, returnDates
 from Plot import plotMoodline
-
+from xml_creator import create_xml
 
 def check(tweetValue,docAtt,totdoc,realValue,t,f):
     #if tweetValue == t and tweetValue == realValue:
@@ -86,8 +86,9 @@ def main():
         calc_precision_recall(docAtt[i],totdoc[i],totdocAtt[i])
 
     #graphic plot
-    plotMoodline(returnDates(),retrMoods)
-    plotMoodline(returnDates(),retrMoodsS)
+    #plotMoodline(returnDates(),retrMoods)
+    #plotMoodline(returnDates(),retrMoodsS)
+    create_xml()
 
 if __name__ == '__main__':
     main()

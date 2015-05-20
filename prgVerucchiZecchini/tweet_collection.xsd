@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="tweet_collection">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element ref="tweet" minOccurs="1"/>
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="tweet">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="Original_tweet" type="xs:string"/>
+		<xs:element name="Translate_tweet" type="xs:string"/>
+		<xs:element name="Sentiment_nostem" type="xs:string"/>
+		<xs:element name="Sentiment_stem" type="xs:string"/>
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>
