@@ -24,7 +24,7 @@ def create_xml(root,tweetVal,trantweet,s_nostem,s_stem):
 
 def write_xml(root):
     tree = ET.ElementTree(root)
-    tree.write("tweet.xml",pretty_print=True,xml_declaration=True)
+    tree.write("tweet.xml",pretty_print=True,xml_declaration=True,encoding="utf-8")
 
     with open("tweet.xml",'r') as file:
         data = file.readlines()
