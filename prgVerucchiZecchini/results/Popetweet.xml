@@ -1,0 +1,598 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tweet_collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
+  <tweet>
+    <Original_tweet>dio sempre ci aspetta, sempre ci capisce,  sempre ci perdona.</Original_tweet>
+    <Translate_tweet>God awaits us always, always understand us, always forgives us.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>meglio una chiesa ferita ma presente sulla strada, che una chiesa malata perché chiusa in sé stessa.</Original_tweet>
+    <Translate_tweet>better a church but this wound on the road, that a church sick because closed in on itself.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>cari genitori, bisogna avere molta pazienza, e perdonare dal profondo del cuore.</Original_tweet>
+    <Translate_tweet>dear parents, you have to have a lot of patience, and forgive you from my heart.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>perché ci risulta tanto difficile sopportare i difetti degli altri? dimentichiamo che gesù ha sopportato tutti i nostri peccati?</Original_tweet>
+    <Translate_tweet>because it is so difficult to endure the shortcomings of others? We forget that Jesus has borne all our sins?</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>impariamo a vivere la benevolenza, a volere bene a tutti, anche a quelli che non ci vogliono bene.</Original_tweet>
+    <Translate_tweet>we learn to live the good will, to want well to everyone, even to those who do not love us.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>quando non ci si può guadagnare il pane, si perde la dignità. questo è un dramma di oggi, specialmente per i giovani.</Original_tweet>
+    <Translate_tweet>when you can not earn your bread, you lose your dignity. This is a drama of today, especially for young people.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>ci fa bene stare un po’ di tempo davanti al tabernacolo, per sentire su di noi lo sguardo di gesù.</Original_tweet>
+    <Translate_tweet>There is good to be a bit 'of time before the tabernacle, to feel on us the gaze of Jesus.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>l’amore di cristo ci riempie il cuore e ci rende capaci di perdonare sempre.</Original_tweet>
+    <Translate_tweet>the love of Christ fills our hearts and enables us to forgive always.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>in mezzo a tanti problemi, anche gravi, non perdiamo la nostra speranza nella infinita misericordia di dio.</Original_tweet>
+    <Translate_tweet>in the midst of so many problems, even serious, we do not lose our hope in the infinite mercy of God.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>ogni comunità cristiana dev’essere una casa accogliente per chi cerca dio, come pure per chi cerca un fratello che lo ascolti.</Original_tweet>
+    <Translate_tweet>every Christian community must be a welcoming home for those seeking God, as well as for those looking for a brother who will listen.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>noi cristiani siamo chiamati a uscire dai nostri “recinti” per portare a tutti la misericordia e la tenerezza di dio.</Original_tweet>
+    <Translate_tweet>we Christians are called to leave our "fences" to bring all the mercy and tenderness of God.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>nei sacramenti troviamo la forza di pensare e agire secondo il vangelo.</Original_tweet>
+    <Translate_tweet>in the sacraments we find the strength to think and act according to the Gospel.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>bisogna custodire la terra affinché possa continuare ad essere, come dio la vuole, fonte di vita per l’intera famiglia umana.</Original_tweet>
+    <Translate_tweet>We have to keep the land so that it can continue to be, as God wants it, the source of life for the entire human family.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>maria, madre dei dolori, aiutaci a capire la volontà di dio nei momenti di grande sofferenza.</Original_tweet>
+    <Translate_tweet>maria, mother of sorrows, help us to understand the will of God in times of great suffering.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>il signore non si stanca mai di perdonarci. siamo noi che ci stanchiamo di chiedere perdono.</Original_tweet>
+    <Translate_tweet>The Lord never tires to forgive. we who get tired of asking forgiveness.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>possiamo portare il vangelo agli altri se esso permea profondamente la nostra vita.</Original_tweet>
+    <Translate_tweet>we can bring the Gospel to others if it deeply permeates our lives.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>signore, donaci la grazia delle lacrime, per piangere i nostri peccati e ricevere il tuo perdono.</Original_tweet>
+    <Translate_tweet>Lord, grant us the grace of tears, crying for our sins and receive your forgiveness.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>signore, aiutaci a vivere la virtù della magnanimità, per amare senza confini.</Original_tweet>
+    <Translate_tweet>Lord, help us to live the virtue of magnanimity, to love without boundaries.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>cristo è risorto! cristo è vivo e cammina con noi!</Original_tweet>
+    <Translate_tweet>Christ is risen! Christ is alive and he walks with us!</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la croce di cristo non è una sconfitta: la croce è amore e misericordia.</Original_tweet>
+    <Translate_tweet>the cross of Christ is not a defeat: the Cross is love and mercy.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>gesù lava i piedi degli apostoli. noi siamo disposti a servire gli altri così?</Original_tweet>
+    <Translate_tweet>Jesus washes the feet of the apostles. we are willing to serve others well?</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la confessione è il sacramento della tenerezza di dio, il suo modo di abbracciarci.</Original_tweet>
+    <Translate_tweet>Confession is the sacrament of the tenderness of God, his way of hugging.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la settimana santa è il tempo che più ci chiama a stare vicino a gesù: l’amicizia si vede nella prova.</Original_tweet>
+    <Translate_tweet>Holy Week is the time that most calls us to stay close to Jesus: friendship can be seen in the test.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>in quanto discepoli di cristo, non possiamo non interessarci al bene dei più deboli.</Original_tweet>
+    <Translate_tweet>as disciples of Christ, we can not but be concerned for the good of the weakest.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la vita è un tesoro prezioso, ma lo scopriamo solo se la doniamo agli altri.</Original_tweet>
+    <Translate_tweet>Life is a precious treasure, but we find out only if we give to others.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>i fedeli laici sono chiamati a diventare fermento di vita cristiana in tutta la società.</Original_tweet>
+    <Translate_tweet>the lay faithful are called to be leaven in the whole society.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la sofferenza è un richiamo alla conversione: ci ricorda che siamo fragili e vulnerabili.</Original_tweet>
+    <Translate_tweet>suffering is a call to conversion: it reminds us that we are weak and vulnerable.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>che ogni chiesa, ogni comunità cristiana sia un luogo di misericordia in mezzo a tanta indifferenza.</Original_tweet>
+    <Translate_tweet>every church, every Christian community is a place of mercy in the midst of indifference.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>lasciamo che dio ci riempia della sua bontà e misericordia.</Original_tweet>
+    <Translate_tweet>let God fill us with his goodness and mercy.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la quaresima è un tempo per avvicinarci a cristo, per mezzo della parola di dio e dei sacramenti.</Original_tweet>
+    <Translate_tweet>Lent is a time to draw closer to Christ, through the word of God and the sacraments.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>attenzione alle comodità! quando ci sentiamo comodi, ci dimentichiamo facilmente degli altri.</Original_tweet>
+    <Translate_tweet>attention to comfort! when we feel comfortable, we easily forget the other.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>nei momenti più brutti, ricordate: dio è nostro padre; dio non abbandona i suoi figli.</Original_tweet>
+    <Translate_tweet>in the worst moments, remember: God is our father; God does not abandon his children.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>l’umiltà salva l’uomo; la superbia gli fa perdere la strada.</Original_tweet>
+    <Translate_tweet>humility saves man; pride makes him lose the way.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>costruiamo la nostra vita di fede sulla roccia, che è cristo.</Original_tweet>
+    <Translate_tweet>we build our lives on the rock of faith, which is Christ.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>se noi siamo troppo attaccati alla ricchezza,  non siamo liberi.  siamo schiavi.</Original_tweet>
+    <Translate_tweet>if we are too attached to the wealth, we are not free. we are slaves.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>il cuore si indurisce quando non ama. signore, dacci un cuore che sappia amare!</Original_tweet>
+    <Translate_tweet>the heart hardens when it does not like. Lord, give us a heart that knows how to love!</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>gesù intercede per noi, ogni giorno. preghiamo: signore, abbi pietà di me; intercedi per me!</Original_tweet>
+    <Translate_tweet>Jesus intercedes for us, every day. we pray: Lord, have mercy on me; intercede for me!</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>non c’è peccato che dio non possa perdonare. basta che noi chiediamo perdono.</Original_tweet>
+    <Translate_tweet>there is no sin that God can not forgive. just that we ask forgiveness.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>i sacramenti sono la manifestazione della tenerezza e dell’amore del padre verso ognuno di noi.</Original_tweet>
+    <Translate_tweet>the sacraments are the manifestation of tenderness and love of father to all of us.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>dove ci sono uomini e donne che hanno consacrato la loro vita a dio, c’è gioia.</Original_tweet>
+    <Translate_tweet>where there are men and women who have dedicated their lives to God, there is joy.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>signore, dacci la grazia di sentirci peccatori.</Original_tweet>
+    <Translate_tweet>Lord, give us the grace to feel sinners.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>durante la quaresima, troviamo modi concreti per superare la nostra indifferenza.</Original_tweet>
+    <Translate_tweet>during Lent, we find concrete ways to overcome our indifference.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>gesù è venuto a portare la gioia a tutti e per sempre.</Original_tweet>
+    <Translate_tweet>Jesus came to bring joy to all and forever.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>gesù non è un personaggio del passato: egli continua sempre ad illuminare il cammino dell’uomo.</Original_tweet>
+    <Translate_tweet>Jesus is not a character from the past: he always continues to light the way of man.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>avere fede non significa non avere momenti difficili, ma avere la forza di affrontarli sapendo che non siamo soli.</Original_tweet>
+    <Translate_tweet>have faith does not mean not having tough times, but have the strength to face them knowing that we are not alone.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>siamo tutti peccatori. siamo tutti chiamati a una conversione di cuore</Original_tweet>
+    <Translate_tweet>we are all sinners. we are all called to a conversion of heart</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>il vero amore non bada al male ricevuto. gioisce nel fare del bene.</Original_tweet>
+    <Translate_tweet>true love does not mind the bad received. It rejoices in doing good.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>auschwitz grida il dolore di una sofferenza immane e invoca un futuro di rispetto, pace ed incontro tra popoli.</Original_tweet>
+    <Translate_tweet>auschwitz cries the pain of a terrible suffering and calls for a future of respect, peace and encounter between peoples.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>mettere in pratica la carità è il modo migliore per evangelizzare.</Original_tweet>
+    <Translate_tweet>to practice charity is the best way to evangelize.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>ai miei amici nello sri lanka e nelle filippine: dio vi benedica tutti. per favore pregate per me.</Original_tweet>
+    <Translate_tweet>my friends in Sri Lanka and in the Philippines: God bless you all. please pray for me.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>quante volte dimentichiamo di concentrarci su ciò che conta veramente! dimentichiamo di essere figli di dio.</Original_tweet>
+    <Translate_tweet>how many times we forget to focus on what really matters! We forget that we are children of God.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>in quanto cristiani, membri della famiglia di dio, siamo chiamati ad andare  verso i bisognosi e a servirli.</Original_tweet>
+    <Translate_tweet>as Christians, members of the family of God, we are called to reach out to the needy and to serve them.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la conpassione di dio, il suo soffrire con noi, dà significato e valore ai nostri sforzi e alle nostre sofferenze.</Original_tweet>
+    <Translate_tweet>conpassione of the god, his suffering with us, gives meaning and value to our efforts and our sufferings.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la famiglia è il più grande tesoro di un paese. lavoriamo tutti per proteggere e rafforzare questa pietra d’angolo della società!</Original_tweet>
+    <Translate_tweet>the family is the greatest treasure of a country. we all work to protect and strengthen this cornerstone of the company!</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>le filippine sono una testimonianza della giovinezza e della vitalità della chiesa.</Original_tweet>
+    <Translate_tweet>Filipinas are a testimony of youth and vitality of the church.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>dio benedica e protegga lo sri lanka.</Original_tweet>
+    <Translate_tweet>God bless and protect the sri lanka.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>san giuseppe vaz, insegnaci a crescere in santità e a vivere il messaggio di misericordia del vangelo.</Original_tweet>
+    <Translate_tweet>St. joseph vaz, teach us to grow in holiness and to live the message of the Gospel of mercy.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>nel giorno in cui inizio il viaggio verso sri lanka e filippine, vi chiedo di pregare con me per i popoli di quei paesi.</Original_tweet>
+    <Translate_tweet>the day that begins the journey to Sri Lanka and the Philippines, I ask you to pray with me for the peoples of those countries.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la domenica è il giorno del signore: troviamo il tempo di stare con lui.</Original_tweet>
+    <Translate_tweet>Sunday is the day of the Lord: we make time to be with him.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>gesù è venuto a salvarci: non rifiutiamo questo dono meraviglioso!</Original_tweet>
+    <Translate_tweet>Jesus came to save us: we do not reject this wonderful gift!</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>signore, fa’ che sappiamo riconoscerti nei malati, nei bisognosi e in coloro che soffrono.</Original_tweet>
+    <Translate_tweet>sir, is' we know recognize the sick and the needy and those who suffer.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>il cristianesimo si diffonde grazie alla gioia di discepoli che si sanno amati e salvati.</Original_tweet>
+    <Translate_tweet>Christianity spread thanks to the joy of the disciples who know they are loved and saved.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>quanta gente innocente e quanti bambini soffrono al mondo! signore, donaci la tua pace!</Original_tweet>
+    <Translate_tweet>how many people and how many innocent children are suffering in the world! Lord, grant us your peace!</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>signore, grazie!</Original_tweet>
+    <Translate_tweet>Sir, thank you!</Translate_tweet>
+    <Sentiment_nostem>OBJECTIVE</Sentiment_nostem>
+    <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>oggi si soffre per indigenza, ma anche per mancanza di amore.</Original_tweet>
+    <Translate_tweet>today suffers from poverty, but also for lack of love.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la famiglia cristiana è missionaria: annuncia al mondo l’amore di dio.</Original_tweet>
+    <Translate_tweet>the Christian family is missionary announces to the world the love of God.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>oggi preghiamo per tutti coloro che sono perseguitati a causa della fede cristiana.</Original_tweet>
+    <Translate_tweet>Today we pray for all those who are persecuted because of their Christian faith.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>con gesù c’è la vera gioia.</Original_tweet>
+    <Translate_tweet>Jesus is with true joy.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>cerchiamo di ascoltare e di fare silenzio per lasciare spazio alla bellezza di dio.</Original_tweet>
+    <Translate_tweet>We try to listen and to be silent to make room for the beauty of God.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>a volte siamo schiavi al peccato. signore, vieni a liberarci!</Original_tweet>
+    <Translate_tweet>sometimes we are slaves to sin. Lord, come and liberate us!</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>perché gesù diventi il centro della nostra vita, è necessario stare alla sua presenza, davanti al tabernacolo.</Original_tweet>
+    <Translate_tweet>because Jesus will become the center of our lives, you have to be in his presence, before the tabernacle.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>il signore ha detto chiaramente: non potete servire due padroni. o dio o le ricchezze.</Original_tweet>
+    <Translate_tweet>The Lord has made it clear: you can not serve two masters. or God or riches.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>com’è importante saper ascoltare! il dialogo tra coniugi è essenziale perché una famiglia possa essere serena.</Original_tweet>
+    <Translate_tweet>it is important to know how to listen! dialogue between spouses is essential because a family can be serene.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>oggi è l’anniversario della mia ordinazione sacerdotale. vi chiedo di pregare per me e per tutti i sacerdoti.</Original_tweet>
+    <Translate_tweet>Today is the anniversary of my priestly ordination. I ask you to pray for me and for all priests.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>nostra signora di guadalupe, prega per noi!</Original_tweet>
+    <Translate_tweet>Our Lady of Guadalupe, pray for us!</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la questione ecologica è vitale per la sopravvivenza dell’uomo e ha una dimensione morale che tocca tutti.</Original_tweet>
+    <Translate_tweet>the ecological question is vital for human survival and has a moral dimension that touches everyone.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la famiglia è la comunità d’amore in cui ogni persona impara a relazionarsi con gli altri e con il mondo.</Original_tweet>
+    <Translate_tweet>the family is the community of love in which each person learns to relate to others and the world.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>impariamo dalla vergine maria ad essere più coraggiosi nel seguire la parola di dio.</Original_tweet>
+    <Translate_tweet>we learn from the Virgin Mary to be more courageous in following the word of God.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>l’avvento ci fa iniziare un nuovo cammino. lasciamoci guidare da maria, nostra madre.</Original_tweet>
+    <Translate_tweet>the advent makes us start a new journey. let us be guided by maria, our mother.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>il tempo di avvento ci infonde speranza, una speranza che non delude. il signore non delude mai.</Original_tweet>
+    <Translate_tweet>The time of Advent gives us hope, a hope which does not disappoint. The Lord never disappoints.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>mai più schiavi. siamo tutti fratelli e sorelle. #endslavery</Original_tweet>
+    <Translate_tweet>never slaves. we are all brothers and sisters. #endslavery</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la chiesa è chiamata a farsi vicina ad ogni persona, iniziando dai più poveri e da coloro che soffrono.</Original_tweet>
+    <Translate_tweet>the church is called to be close to every person, beginning with the poorest and those who suffer.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>l’amore è la misura della fede.</Original_tweet>
+    <Translate_tweet>love is the measure of faith.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>quando noi incontriamo una persona veramente bisognosa, riconosciamo in lei il volto di dio?</Original_tweet>
+    <Translate_tweet>when we encounter a person in real need, we recognize in her the face of God?</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>cerchiamo di vivere in maniera sempre degna della nostra vocazione cristiana.</Original_tweet>
+    <Translate_tweet>we try to live in an increasingly worthy of our Christian vocation.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>quanto rumore nel mondo! impariamo a stare in silenzio davanti a noi stessi e davanti a dio.</Original_tweet>
+    <Translate_tweet>how much noise in the world! We learn to be quiet before ourselves and before God.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>un cristiano porta pace agli altri. e non solo pace, ma anche amore, bontà, fedeltà e gioia.</Original_tweet>
+    <Translate_tweet>a Christian brings peace to others. and not only peace, but also love, goodness, faith and joy.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la guerra distrugge, uccide, impoverisce. signore, donaci la tua pace!</Original_tweet>
+    <Translate_tweet>War destroys, kills, impoverishes. Lord, grant us your peace!</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>quanto è importante il lavoro: per la dignità umana, per formare una famiglia, per la pace!</Original_tweet>
+    <Translate_tweet>how important is the work for human dignity, to form a family, for peace!</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>chiedo a tutte le persone di buona volontà di contribuire a creare una cultura dell’incontro, della solidarietà, della pace. #fotw25</Original_tweet>
+    <Translate_tweet>I ask all people of good will to help create a culture of encounter, solidarity, peace. # Fotw25</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la chiesa è sempre in cammino, alla ricerca di nuove vie per l’annuncio del vangelo.</Original_tweet>
+    <Translate_tweet>the church is always on the move, looking for new ways to proclaim the Gospel.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>l’indifferenza verso i bisognosi non è accettabile per una persona che si dice cristiana.</Original_tweet>
+    <Translate_tweet>indifference to the needy is not acceptable for a person who says Christian.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>l’umiltà ci aiuta di farci carico del peso degli altri.</Original_tweet>
+    <Translate_tweet>Humility helps us to take care of the weight of the other.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>quanto bene possiamo fare con il buon esempio e quanto male con l’ipocrisia.</Original_tweet>
+    <Translate_tweet>how well we can do with a good example and how bad the hypocrisy.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la missione principale della chiesa è evangelizzare, portare la buona novella a tutti.</Original_tweet>
+    <Translate_tweet>The main mission of the church is to evangelize, to bring the good news to all.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>aiutiamo la gente a scoprire la gioia del messaggio cristiano: un messaggio d’amore e di misericordia.</Original_tweet>
+    <Translate_tweet>we help people to discover the joy of the Christian message: a message of love and mercy.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la croce di gesù dimostra tutta la forza del male ma anche tutta l’onnipotenza della misericordia di dio.</Original_tweet>
+    <Translate_tweet>the cross of Jesus demonstrates the power of evil but also all the omnipotence of the mercy of God.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la famiglia è il luogo in cui noi ci formiamo come persone. ogni famiglia è un mattone che costruisce la società.</Original_tweet>
+    <Translate_tweet>the family is the place where we form as people. every family is a brick building now.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la fede, per essere sana e robusta, dev’essere nutrita costantemente dalla parola di dio.</Original_tweet>
+    <Translate_tweet>faith, to be strong and healthy, it must be constantly nourished by the word of God.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+</tweet_collection>

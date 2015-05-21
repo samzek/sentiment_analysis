@@ -22,11 +22,11 @@ def create_xml(root,tweetVal,trantweet,s_nostem,s_stem):
     else:
         ET.SubElement(tweet,"Sentiment_stem").text="OBJECTIVE"
 
-def write_xml(root):
+def write_xml(root,file_output):
     tree = ET.ElementTree(root)
-    tree.write("tweet.xml",pretty_print=True,xml_declaration=True,encoding="utf-8")
+    tree.write(file_output,pretty_print=True,xml_declaration=True,encoding="utf-8")
 
-    with open("tweet.xml",'r') as file:
+    with open(file_output,'r') as file:
         data = file.readlines()
 
     for i in xrange(0,len(data)):
@@ -36,5 +36,5 @@ def write_xml(root):
                       "xsi:noNamespaceSchemaLocation=\"tweet_collection.xsd\">\n"
             break
 
-    with open("tweet.xml",'w') as file:
+    with open(file_output,'w') as file:
         file.writelines(data)

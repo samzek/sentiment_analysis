@@ -1,0 +1,180 @@
+Original tweet  Oggi è proprio una bella giornata 
+Translate tweet Today is a beautiful day
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Sono felice di essere stato scelto per l'hackathon di Cervia 
+Translate tweet I'm happy to have been chosen for the hackathon cervia
+Results without stemming :  POSITIVE
+Results with stemming :  OBJECTIVE
+Original tweet  Abbiamo perso ma è stata un'esperienza molto divertente 
+Translate tweet we lost but it was a very fun
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Oggi va tutto storto! 
+Translate tweet Today everything goes wrong!
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  A giocare a calcio mi sono storto una caviglia, accidenti! 
+Translate tweet playing football I twisted an ankle, damn!
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  E' il giorno più bello della mia vita : la Juve è in finale 
+Translate tweet and 'the best day of my life: Juve is in final
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Sono davvero desolato di non poter più vedere LLR tutti i giorni 
+Translate tweet I'm really sorry for not being able to see LLR every day
+Results without stemming :  NEGATIVE
+Results with stemming :  POSITIVE
+Original tweet  Oggi ho mangiato un kebab con Paolo ed è stato davvero emozionante 
+Translate tweet Today I ate a kebab with paul and it was really exciting
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Sono davvero contento di poter lavorare con un ragazzo ameba! 
+Translate tweet I'm really happy to be working with a guy amoeba!
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Oggi la corriera era in ritardo di 50 minuti, sono infuriata 
+Translate tweet Today the bus was delayed by 50 minutes are angry
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Mia sorella mi ha tirato i capelli e mi ha fatto molto male 
+Translate tweet my sister has pulled her hair and made me very ill
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Oggi una mia amica mi ha portato una buonissima torta alle fragole 
+Translate tweet Today a friend of mine brought me a delicious strawberry pie
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Non vedo l'ora che inizi il concerto dei miei cantanti preferiti 
+Translate tweet I can not wait to begin the concert of my favorite singers
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Sono disperato perchè non trovo più le chiavi della macchina 
+Translate tweet I'm desperate because I can not find my car keys
+Results without stemming :  NEGATIVE
+Results with stemming :  POSITIVE
+Original tweet  Sono davvero arrabbiata perchè mi hanno rubato la borsa
+Translate tweet I'm really angry because they stole the bag
+Results without stemming :  POSITIVE
+Results with stemming :  NEGATIVE
+Original tweet  Che bello averti incontrata Claudia! 
+Translate tweet that good to have you met claudia!
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Che gioia questo progetto 
+Translate tweet joy that this project
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Sono triste perchè il programma non capisce l'ironia 
+Translate tweet I'm sad because the program does not understand the irony
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Sono stufa di scrivere frasi random per popolare il database
+Translate tweet I'm sick of writing random sentences to populate the database
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Quando non ci si può guadagnare il pane, si perde la dignità. Questo è un dramma di oggi, specialmente per i giovani 
+Translate tweet when you can not earn your bread, you lose your dignity. This is a drama of today, especially for young people
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  I fedeli laici sono chiamati a diventare fermento di vita cristiana in tutta la società. 
+Translate tweet the lay faithful are called to be leaven in the whole society.
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Se noi siamo troppo attaccati alla ricchezza, non siamo liberi. Siamo schiavi 
+Translate tweet if we are too attached to the wealth, we are not free. we are slaves
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  L’école de la République, c’est l'école qui amène un enfant d’une famille modeste à l’excellence 
+Translate tweet school of the republic, it is the school that takes a child from a modest family to excellence
+Results without stemming :  POSITIVE
+Results with stemming :  NEGATIVE
+Original tweet  Alitalia divorzia da Air France: nel 2017 fine della partnership 
+Translate tweet alitalia divorces air france: in 2017 the end of the partnership
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Il 96% delle aziende confiscate alla mafia fallisce. Servono manager adeguati 
+Translate tweet 96% of businesses confiscated from the mafia fails. managers need adequate
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Borsa, le blue chip battono le stime 
+Translate tweet bag, blue chips beat estimates
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  in sei anni di crisi poveri cresciuti da 11 a 15 milioni 
+Translate tweet in six years of crisis poor grew from 11 million to 15 million
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Riforma scuola, la Camera dice sì allo school bonus 
+Translate tweet Reform school, the chamber says yes to school bonus
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Borse europee in crescita. L’euro in calo 
+Translate tweet European shares rise. the euro down
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Mps raggruppa le azioni, il titolo cade in Borsa 
+Translate tweet mps groups the shares, the stock falls in stock market
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  L’Fmi alza le stime di crescita per l’Italia 
+Translate tweet the IMF raises growth forecast for Italy
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Finalmente la verità. Oggi è una bella giornata per la politica, per la giustizia, per lo stato di diritto. 
+Translate tweet finally the truth. Today is a beautiful day for politics, for justice, for the rule of law.
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Sono vicino alle famiglie delle vittime e dei feriti e ai nostri uomini in divisa rimasti coinvolti oggi nella sparatoria a Napoli 
+Translate tweet They are close to the families of those killed and injured and to our men in uniform were involved in the shooting today in Naples
+Results without stemming :  NEGATIVE
+Results with stemming :  POSITIVE
+Original tweet  Cinque anni alla guida della Juve. Buon anniversario Presidente!!! 
+Translate tweet five years at the helm of juve. happy anniversary President !!!
+Results without stemming :  POSITIVE
+Results with stemming :  OBJECTIVE
+Original tweet  Oggi nel kebab c'erano dei capelli, che schifo 
+Translate tweet today in the kebab he had hair, yuck
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Nepal, nuovo terremoto di magnitudo 7.4 
+Translate tweet nepal, new earthquake of magnitude 7.4
+Results without stemming :  NEGATIVE
+Results with stemming :  POSITIVE
+Original tweet  Molotov e bombe carta dai black bloc, un disastro a milano 
+Translate tweet molotov bombs and paper by black bloc, a disaster in milan
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Scuola: 5 per mille stralciato dalla riforma 
+Translate tweet school: 5 per thousand dropped by the reform
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Non passerò mai analisi matematica 1 
+Translate tweet I would never pass calculus 1
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+Original tweet  Ora trovare modo di assumere più precari 
+Translate tweet now find a way to hire more temporary workers
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Sono felice felice felicissima, oggi è un giorno bello bellissimo 
+Translate tweet I'm happy happy happy, today is a beautiful day beautiful
+Results without stemming :  POSITIVE
+Results with stemming :  POSITIVE
+Original tweet  Mia mamma è morta e sono tristissima, ho pianto tutto il giorno 
+Translate tweet My mother died and are sad, I cried all day
+Results without stemming :  NEGATIVE
+Results with stemming :  NEGATIVE
+POSITIVE : 
+	PRECISION:  75.0 %
+	RECALL 85.7142857143 %
+NEGATIVE : 
+	PRECISION:  83.3333333333 %
+	RECALL 71.4285714286 %
+POSITIVE STEMMED : 
+	PRECISION:  62.5 %
+	RECALL 71.4285714286 %
+NEGATIVE STEMMED: 
+	PRECISION:  75.0 %
+	RECALL 57.1428571429 %

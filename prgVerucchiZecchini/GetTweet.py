@@ -2,8 +2,8 @@ __author__ = 'micaela'
 # !/usr/bin/env python
 #  -*- coding: utf-8 -*-
 
-def retrieveData(index):
-    f = open("test.txt")
+def retrieveData(index, file_input):
+    f = open(file_input)
     data = []
     for i in f.read().splitlines():
         line = i.split("|")
@@ -11,21 +11,21 @@ def retrieveData(index):
     f.close()
     return data
 
-def returnTweets():
-    t = retrieveData(0)
+def returnTweets(file_input):
+    t = retrieveData(0,file_input)
     return t
 
-def returnMood():
-    m = retrieveData(1)
+def returnMood(file_input):
+    m = retrieveData(1,file_input)
     return m
 
-def returnDates():
-    d = retrieveData(2)
+def returnDates(file_input):
+    d = retrieveData(2,file_input)
     return d
 
-def returnNPos():
+def returnNPos(file_input):
     n_pos = 0
-    f = open("test.txt")
+    f = open(file_input)
     for i in f.read().splitlines():
         line = i.split("|")
         if int(line[1]) == 1:
@@ -33,9 +33,9 @@ def returnNPos():
     f.close()
     return n_pos
 
-def returnNNeg():
+def returnNNeg(file_input):
     n_neg = 0
-    f = open("test.txt")
+    f = open(file_input)
     for i in f.read().splitlines():
         line = i.split("|")
         if int(line[1]) == -1:
