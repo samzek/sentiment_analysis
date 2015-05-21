@@ -301,4 +301,14 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
   </tweet>
+  <Precision_recall>
+    <POSITIVE>
+      <Precision>100.0%</Precision>
+      <Recall>68.0%</Recall>
+    </POSITIVE>
+    <POSITIVE_STEMMED>
+      <Precision>100.0%</Precision>
+      <Recall>64.0%</Recall>
+    </POSITIVE_STEMMED>
+  </Precision_recall>
 </tweet_collection>

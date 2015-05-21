@@ -595,4 +595,22 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
   </tweet>
+  <Precision_recall>
+    <POSITIVE>
+      <Precision>80.0%</Precision>
+      <Recall>77.7777777778%</Recall>
+    </POSITIVE>
+    <NEGATIVE>
+      <Precision>46.4285714286%</Precision>
+      <Recall>48.1481481481%</Recall>
+    </NEGATIVE>
+    <POSITIVE_STEMMED>
+      <Precision>76.9230769231%</Precision>
+      <Recall>69.4444444444%</Recall>
+    </POSITIVE_STEMMED>
+    <NEGATIVE_STEMMED>
+      <Precision>37.5%</Precision>
+      <Recall>44.4444444444%</Recall>
+    </NEGATIVE_STEMMED>
+  </Precision_recall>
 </tweet_collection>

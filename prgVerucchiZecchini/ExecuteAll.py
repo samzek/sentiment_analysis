@@ -6,7 +6,7 @@ from Preprocessing import Preprocess
 from SentiAnalisys import senti_analisys
 from GetTweet import returnTweets,returnMood,returnNNeg,returnNPos, returnDates
 from Plot import plotMoodline
-from xml_creator import create_xml,write_xml
+from xml_creator import *
 from lxml import etree as ET
 import sys
 
@@ -25,6 +25,8 @@ def calc_precision_recall(retrieved,intersection,relevant):
     #Recall: attinenti intersecato recuperati /attinenti
     recall = intersection / float(relevant) *100
     print "\tRECALL", recall,"%"
+
+    return precision,recall
 
 def calcPosAndNeg(file_input):
     if returnNPos(file_input) == 0:
@@ -103,15 +105,17 @@ def ExecuteAll(file_input,file_output, plot):
 
         count += 1
 
+    tagPR = create_PR(root)
     #precision and removal
-    resCase = ["POSITIVE : ","NEGATIVE : ","POSITIVE STEMMED : ","NEGATIVE STEMMED: "]
+    resCase = ["POSITIVE","NEGATIVE","POSITIVE_STEMMED","NEGATIVE_STEMMED"]
     for i in xrange(4):
         if neg==False and i in {1,3}:
             continue
         if pos==False and i in {0,2}:
             continue
         print resCase[i]
-        calc_precision_recall(retrieved[i],intersection[i],relevant[i])
+        precision,recall=calc_precision_recall(retrieved[i],intersection[i],relevant[i])
+        add_PR_to_xml(tagPR,resCase[i],precision,recall)
 
     #write XML
     write_xml(root,file_output)

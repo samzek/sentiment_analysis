@@ -22,21 +22,17 @@ def create_xml(root,tweetVal,trantweet,s_nostem,s_stem):
     else:
         ET.SubElement(tweet,"Sentiment_stem").text="OBJECTIVE"
 
-<<<<<<< HEAD
 def create_PR(root):
     pr = ET.SubElement(root,"Precision_recall")
     return pr
 
 def add_PR_to_xml(root,val,precision,recall):
     pos=ET.SubElement(root,val)
-    ET.SubElement(pos,"Precision").text=str(precision+"%")
-    ET.SubElement(pos,"Recall").text=str(recall+"%")
+    ET.SubElement(pos,"Precision").text=str(precision)+"%"
+    ET.SubElement(pos,"Recall").text=str(recall)+"%"
 
-
-def write_xml(root):
-=======
 def write_xml(root,file_output):
->>>>>>> 77be7b388b7bcb7b2131f5b1a37485cd77b39570
+
     tree = ET.ElementTree(root)
     tree.write(file_output,pretty_print=True,xml_declaration=True,encoding="utf-8")
 
