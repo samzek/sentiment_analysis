@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tweet_collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
+  <tweet>
+    <Original_tweet>oggi sono davvero tristissima </Original_tweet>
+    <Translate_tweet>Today I am really sad</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>this is a terrbile test! </Original_tweet>
+    <Translate_tweet>this is a terrbile test! </Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+</tweet_collection>

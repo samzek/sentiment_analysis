@@ -1,0 +1,42 @@
+Oggi è proprio una bella giornata | 1 |01/01/2015
+Sono felice di essere stato scelto per l'hackathon di Cervia | 1 |02/01/2015
+Abbiamo perso ma è stata un'esperienza molto divertente | 1 |03/01/2015
+Oggi va tutto storto! | -1 |04/01/2015
+A giocare a calcio mi sono storto una caviglia, accidenti! | -1 |05/01/2015
+E' il giorno più bello della mia vita : la Juve è in finale | 1 |06/01/2015
+Sono davvero desolato di non poter più vedere LLR tutti i giorni | -1 |07/01/2015
+Oggi ho mangiato un kebab con Paolo ed è stato davvero emozionante | 1 |08/01/2015
+Sono davvero contento di poter lavorare con un ragazzo ameba! | 1 |09/01/2015
+Oggi la corriera era in ritardo di 50 minuti, sono infuriata | -1 |10/01/2015
+Mia sorella mi ha tirato i capelli e mi ha fatto molto male | -1 |11/01/2015
+Oggi una mia amica mi ha portato una buonissima torta alle fragole | 1 |11/01/2015
+Non vedo l'ora che inizi il concerto dei miei cantanti preferiti | 1 |13/01/2015
+Sono disperato perchè non trovo più le chiavi della macchina | -1 |14/01/2015
+Sono davvero arrabbiata perchè mi hanno rubato la borsa| -1 |15/01/2015
+Che bello averti incontrata Claudia! | 1 |16/01/2015
+Che gioia questo progetto | 1 |17/01/2015
+Sono triste perchè il programma non capisce l'ironia | -1 |18/01/2015
+Sono stufa di scrivere frasi random per popolare il database| -1 |19/01/2015
+Quando non ci si può guadagnare il pane, si perde la dignità. Questo è un dramma di oggi, specialmente per i giovani | -1 |20/01/2015
+I fedeli laici sono chiamati a diventare fermento di vita cristiana in tutta la società. | 1 |21/01/2015
+Se noi siamo troppo attaccati alla ricchezza, non siamo liberi. Siamo schiavi | -1 |22/01/2015
+L’école de la République, c’est l'école qui amène un enfant d’une famille modeste à l’excellence | 1 |23/01/2015
+Alitalia divorzia da Air France: nel 2017 fine della partnership | -1 |24/01/2015
+Il 96% delle aziende confiscate alla mafia fallisce. Servono manager adeguati | -1 |25/01/2015
+Borsa, le blue chip battono le stime | 1 |26/01/2015
+in sei anni di crisi poveri cresciuti da 11 a 15 milioni | -1 |27/01/2015
+Riforma scuola, la Camera dice sì allo school bonus | 1 |28/01/2015
+Borse europee in crescita. L’euro in calo | 1 |29/01/2015
+Mps raggruppa le azioni, il titolo cade in Borsa | 1 |30/01/2015
+L’Fmi alza le stime di crescita per l’Italia | 1 |31/01/2015
+Finalmente la verità. Oggi è una bella giornata per la politica, per la giustizia, per lo stato di diritto. | 1 |01/02/2015
+Sono vicino alle famiglie delle vittime e dei feriti e ai nostri uomini in divisa rimasti coinvolti oggi nella sparatoria a Napoli | -1 |02/02/2015
+Cinque anni alla guida della Juve. Buon anniversario Presidente!!! | 1 |03/02/2015
+Oggi nel kebab c'erano dei capelli, che schifo | -1 |04/02/2015
+Nepal, nuovo terremoto di magnitudo 7.4 | -1 |05/02/2015
+Molotov e bombe carta dai black bloc, un disastro a milano | -1 |06/02/2015
+Scuola: 5 per mille stralciato dalla riforma | -1 |07/02/2015
+Non passerò mai analisi matematica 1 | -1 |08/02/2015
+Ora trovare modo di assumere più precari | 1 |09/02/2015
+Sono felice felice felicissima, oggi è un giorno bello bellissimo | 1 |10/02/2015
+Mia mamma è morta e sono tristissima, ho pianto tutto il giorno | -1 |11/02/2015

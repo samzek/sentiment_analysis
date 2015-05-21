@@ -9,7 +9,7 @@ import datetime as dt
 
 def plotMoodline (dates,moods, moodsS):
 
-    correctDates = [dt.datetime.strptime(d,'%m/%d/%Y').date() for d in dates]
+    correctDates = [dt.datetime.strptime(d,'%d/%m/%Y').date() for d in dates]
 
     #eventuale ordinamento delle date
     """
@@ -36,11 +36,11 @@ def plotMoodline (dates,moods, moodsS):
     withStemming = fig.add_subplot(212)
     withStemming.plot(correctDates,moodsS)
 
-    withoutStemming.xaxis.set_major_formatter(mdates.DateFormatter('%m/%d/%Y'))
-    withStemming.xaxis.set_major_formatter(mdates.DateFormatter('%m/%d/%Y'))
+    withoutStemming.xaxis.set_major_formatter(mdates.DateFormatter('%d/%m/%Y'))
+    withStemming.xaxis.set_major_formatter(mdates.DateFormatter('%d/%m/%Y'))
     plt.gcf().autofmt_xdate()
     plt.show()
 
 
 if __name__ == '__main__':
-    plotMoodline(['06/05/2015','03/01/2015','02/02/2015'],[0.5,0.8,-0.3],[0.1,0.5,-0.6])
+    plotMoodline(['06/05/2015','03/06/2015','22/07/2015'],[0.5,0.8,-0.3],[0.1,0.5,-0.6])

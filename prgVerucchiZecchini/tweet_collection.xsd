@@ -1,20 +1,66 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 <xs:element name="tweet_collection">
-<xs:complexType>
-	<xs:sequence>
-		<xs:element ref="tweet" minOccurs="1" maxOccurs="unbounded"/>
-	</xs:sequence>
-</xs:complexType>
+    <xs:complexType>
+	    <xs:sequence>
+		    <xs:element ref="tweet" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element ref="Precision_recall" minOccurs="1" maxOccurs="1"/>
+	    </xs:sequence>
+    </xs:complexType>
 </xs:element>
+
 <xs:element name="tweet">
-<xs:complexType>
-	<xs:sequence>
-		<xs:element name="Original_tweet" type="xs:string"/>
-		<xs:element name="Translate_tweet" type="xs:string"/>
-		<xs:element name="Sentiment_nostem" type="xs:string"/>
-		<xs:element name="Sentiment_stem" type="xs:string"/>
-	</xs:sequence>
-</xs:complexType>
+    <xs:complexType>
+	    <xs:sequence>
+		    <xs:element name="Original_tweet" type="xs:string"/>
+		    <xs:element name="Translate_tweet" type="xs:string"/>
+		    <xs:element name="Sentiment_nostem" type="xs:string"/>
+		    <xs:element name="Sentiment_stem" type="xs:string"/>
+	    </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="Precision_recall">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="POSITIVE"/>
+            <xs:element ref="NEGATIVE"/>
+            <xs:element ref="POSITIVE_STEMMED"/>
+            <xs:element ref="NEGATIVE_STEMMED"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="POSITIVE">
+    <xs:complexType>
+        <xs:sequence>
+        <xs:element name="Precision" type="xs:string"/>
+        <xs:element name="Recall" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+<xs:element name="NEGATIVE">
+    <xs:complexType>
+        <xs:sequence>
+        <xs:element name="Precision" type="xs:string"/>
+        <xs:element name="Recall" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+<xs:element name="POSITIVE_STEMMED">
+    <xs:complexType>
+        <xs:sequence>
+        <xs:element name="Precision" type="xs:string"/>
+        <xs:element name="Recall" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+<xs:element name="NEGATIVE_STEMMED">
+    <xs:complexType>
+        <xs:sequence>
+        <xs:element name="Precision" type="xs:string"/>
+        <xs:element name="Recall" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
 </xs:element>
 </xs:schema>

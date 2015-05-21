@@ -6,9 +6,8 @@ from Preprocessing import Preprocess
 from SentiAnalisys import senti_analisys
 from GetTweet import returnTweets,returnMood,returnNNeg,returnNPos, returnDates
 from Plot import plotMoodline
-from xml_creator import *
+from xml_creator import create_xml,write_xml
 from lxml import etree as ET
-
 import sys
 
 def check(tweetValue,retrieved,intersection,realValue,t):
@@ -27,18 +26,33 @@ def calc_precision_recall(retrieved,intersection,relevant):
     recall = intersection / float(relevant) *100
     print "\tRECALL", recall,"%"
 
-    return precision,recall
+def calcPosAndNeg(file_input):
+    if returnNPos(file_input) == 0:
+        pos = False
+    else:
+        pos= True
+    if returnNNeg(file_input) == 0:
+        neg = False
+    else:
+        neg = True
 
-def main():
+    return pos,neg
+
+
+
+
+def ExecuteAll(file_input,file_output, plot):
+
+    pos,neg = calcPosAndNeg(file_input)
 
     #0 : positive       1: negative     2: positive and stemmed     3: negative and stemmed
     retrieved = [0,0,0,0]  #recuperati
     intersection = [0,0,0,0]  #intersezione
-    relevant = [returnNPos(),returnNNeg(),returnNPos(),returnNNeg()]   #attinenti
+    relevant = [returnNPos(file_input),returnNNeg(file_input),returnNPos(file_input),returnNNeg(file_input)]   #attinenti
 
     count = 0
-    tweets = returnTweets()
-    mood = returnMood()
+    tweets = returnTweets(file_input)
+    mood = returnMood(file_input)
     retrMoods = []
     retrMoodsS = []
 
@@ -51,12 +65,14 @@ def main():
 
         #language detection
         lng = get_language(tweetLower)
-        #print lng
 
         #translation
-        gs = goslate.Goslate()
-        translateTweet = gs.translate(tweetLower,'en')
-        print "Translate tweet",translateTweet
+        if lng != 'english':
+            gs = goslate.Goslate()
+            translateTweet = gs.translate(tweetLower,'en')
+            print "Translate tweet",translateTweet
+        else:
+            translateTweet = tweetLower
 
         #preprocessing
         tokens,tokens_stemmed =  Preprocess(translateTweet)
@@ -64,36 +80,47 @@ def main():
         #SentiWordNet
         print "Results without stemming : ",
         tweetValue,moodValue = senti_analisys(tokens)
-        retrieved[0],intersection[0] = check(tweetValue,retrieved[0],intersection[0],int(mood[count]),1)
+        if pos:
+            retrieved[0],intersection[0] = check(tweetValue,retrieved[0],intersection[0],int(mood[count]),1)
         #print "valori A, Ra,R POS",retrieved[0],intersection[0],returnNPos()
-        retrieved[1],intersection[1] = check(tweetValue,retrieved[1],intersection[1],int(mood[count]),-1)
+        if neg:
+            retrieved[1],intersection[1] = check(tweetValue,retrieved[1],intersection[1],int(mood[count]),-1)
         #print "valori A, Ra,R NEG",retrieved[1],intersection[1],returnNNeg()
 
         retrMoods.append(moodValue)
 
         print "Results with stemming : ",
         tweetValueS,moodValue = senti_analisys(tokens_stemmed)
-        retrieved[2],intersection[2] = check(tweetValueS,retrieved[2],intersection[2],int(mood[count]),1)
-        retrieved[3],intersection[3] = check(tweetValueS,retrieved[3],intersection[3],int(mood[count]),-1)
+        if pos:
+            retrieved[2],intersection[2] = check(tweetValueS,retrieved[2],intersection[2],int(mood[count]),1)
+        if neg:
+            retrieved[3],intersection[3] = check(tweetValueS,retrieved[3],intersection[3],int(mood[count]),-1)
 
         retrMoodsS.append(moodValue)
 
+        #create XML
         create_xml(root,tweetLower,translateTweet,tweetValue,tweetValueS)
 
         count += 1
 
-    tagPR = create_PR(root)
     #precision and removal
-    resCase = ["POSITIVE : ","NEGATIVE : ","POSITIVE_STEMMED : ","NEGATIVE_STEMMED: "]
+    resCase = ["POSITIVE : ","NEGATIVE : ","POSITIVE STEMMED : ","NEGATIVE STEMMED: "]
     for i in xrange(4):
+        if neg==False and i in {1,3}:
+            continue
+        if pos==False and i in {0,2}:
+            continue
         print resCase[i]
-        precision,recall=calc_precision_recall(retrieved[i],intersection[i],relevant[i])
-        add_PR_to_xml(tagPR,resCase[i],precision,recall)
+        calc_precision_recall(retrieved[i],intersection[i],relevant[i])
 
-    write_xml(root)
+    #write XML
+    write_xml(root,file_output)
+
     #graphic plot
-    #plotMoodline(returnDates(),retrMoods, retrMoodsS)
-    #plotMoodline(returnDates(),retrMoodsS)
+    if plot:
+        plotMoodline(returnDates(file_input),retrMoods, retrMoodsS)
+
+
 
 if __name__ == '__main__':
-    main()
+    ExecuteAll('db/PosNegTweets.txt','results/PosNegtweet.xml',False)
