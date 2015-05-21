@@ -127,4 +127,4 @@ def ExecuteAll(file_input,file_output, plot):
 
 
 if __name__ == '__main__':
-    ExecuteAll('db/PosNegTweets.txt','results/PosNegtweet.xml',False)
+    ExecuteAll('db/TrNegTweets.txt','results/TrNegtweet.xml',False)
