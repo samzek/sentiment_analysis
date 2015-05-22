@@ -26,7 +26,7 @@ def calc_precision_recall(retrieved,intersection,relevant):
     recall = intersection / float(relevant) *100
     print "\tRECALL", recall,"%"
 
-    return precision,recall
+    return round(precision,2),round(recall,2)
 
 def calcPosAndNeg(file_input):
     if returnNPos(file_input) == 0:
@@ -121,8 +121,8 @@ def ExecuteAll(file_input,file_output, plot):
     write_xml(root,file_output)
 
     #graphic plot
-    if plot:
-        plotMoodline(returnDates(file_input),retrMoods, retrMoodsS)
+    #if plot:
+    #   plotMoodline(returnDates(file_input),retrMoods, retrMoodsS)
 
 
 

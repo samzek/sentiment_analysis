@@ -298,11 +298,11 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
   <Precision_recall>
     <POSITIVE>
       <Precision>100.0%</Precision>
-      <Recall>87.7551020408%</Recall>
+      <Recall>87.76%</Recall>
     </POSITIVE>
     <POSITIVE_STEMMED>
       <Precision>100.0%</Precision>
-      <Recall>75.5102040816%</Recall>
+      <Recall>75.51%</Recall>
     </POSITIVE_STEMMED>
   </Precision_recall>
 </tweet_collection>
