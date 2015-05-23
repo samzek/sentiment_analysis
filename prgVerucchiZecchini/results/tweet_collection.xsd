@@ -23,10 +23,10 @@
 <xs:element name="Precision_recall">
     <xs:complexType>
         <xs:sequence>
-            <xs:element ref="POSITIVE"/>
-            <xs:element ref="NEGATIVE"/>
-            <xs:element ref="POSITIVE_STEMMED"/>
-            <xs:element ref="NEGATIVE_STEMMED"/>
+            <xs:element ref="POSITIVE" minOccurs="0"/>
+            <xs:element ref="NEGATIVE" minOccurs="0"/>
+            <xs:element ref="POSITIVE_STEMMED" minOccurs="0"/>
+            <xs:element ref="NEGATIVE_STEMMED" minOccurs="0"/>
         </xs:sequence>
     </xs:complexType>
 </xs:element>
