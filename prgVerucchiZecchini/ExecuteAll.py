@@ -121,10 +121,10 @@ def ExecuteAll(file_input,file_output, plot):
     write_xml(root,file_output)
 
     #graphic plot
-    #if plot:
-    #   plotMoodline(returnDates(file_input),retrMoods, retrMoodsS)
+    if plot:
+       plotMoodline(returnDates(file_input),retrMoods, retrMoodsS)
 
 
 
 if __name__ == '__main__':
-    ExecuteAll('db/TrNegTweets.txt','results/TrNegtweet.xml',False)
+    ExecuteAll('db/PopeTweets100.txt','results/Popetweet.xml',True)
