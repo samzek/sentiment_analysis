@@ -2,6 +2,17 @@
 # -*- coding: utf-8 -*-
 
 from ExecuteAll import ExecuteAll
+from gi.repository import Gtk
+
+"""
+builder = Gtk.Builder()
+builder.add_from_file("GUI.glade")
+
+window = builder.get_object("window1")
+window.show_all()
+
+Gtk.main()
+"""
 
 print "Sentiment Analisys di tweet da tradurre sia positivi che negativi"
 ExecuteAll('db/TrPosNegTweets.txt','results/TrPosNegtweet.xml',False)
