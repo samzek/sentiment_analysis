@@ -54,7 +54,7 @@ by Mive e Samzek</property>
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                     <property name="invisible_char">●</property>
-                    <property name="text" translatable="yes">Insert a phrase and we'll evaluate your sentiments</property>
+                    <property name="text" translatable="yes">Insert a sentence and we'll evaluate your sentiments</property>
                   </object>
                   <packing>
                     <property name="expand">True</property>
@@ -299,16 +299,14 @@ by Mive e Samzek</property>
               <packing>
                 <property name="expand">False</property>
                 <property name="fill">True</property>
+                <property name="padding">17</property>
                 <property name="position">0</property>
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="button2">
-                <property name="label" translatable="yes">Updating pope</property>
-                <property name="use_action_appearance">False</property>
+              <object class="GtkFixed" id="fixed3">
                 <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <property name="receives_default">True</property>
+                <property name="can_focus">False</property>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -327,6 +325,7 @@ by Mive e Samzek</property>
               <packing>
                 <property name="expand">False</property>
                 <property name="fill">True</property>
+                <property name="padding">17</property>
                 <property name="position">2</property>
               </packing>
             </child>

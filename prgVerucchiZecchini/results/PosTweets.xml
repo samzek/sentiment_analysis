@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tweet_collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
+  <tweet>
+    <Original_tweet>you can fail at what you don't like, so you might as well take a chance at doing what you love</Original_tweet>
+    <Translate_tweet>you can fail at what you don't like, so you might as well take a chance at doing what you love</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>sometimes you have to wait a moment for your moment</Original_tweet>
+    <Translate_tweet>sometimes you have to wait a moment for your moment</Translate_tweet>
+    <Sentiment_nostem>OBJECTIVE</Sentiment_nostem>
+    <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>trust your struggle</Original_tweet>
+    <Translate_tweet>trust your struggle</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>you can't live a positive life with a negative mind</Original_tweet>
+    <Translate_tweet>you can't live a positive life with a negative mind</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>every day may not be good. but there's something good in everyday</Original_tweet>
+    <Translate_tweet>every day may not be good. but there's something good in everyday</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>learn your craft. practice your craft. know your craft. breathe your craft. love your craft. live your craft. be your craft.</Original_tweet>
+    <Translate_tweet>learn your craft. practice your craft. know your craft. breathe your craft. love your craft. live your craft. be your craft.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>one small positive thought in the morning can change your whole day</Original_tweet>
+    <Translate_tweet>one small positive thought in the morning can change your whole day</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>small daily improvements are the key to staggering long-term results</Original_tweet>
+    <Translate_tweet>small daily improvements are the key to staggering long-term results</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>be open to whatever comes next</Original_tweet>
+    <Translate_tweet>be open to whatever comes next</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>speak the truth even if your voice shakes</Original_tweet>
+    <Translate_tweet>speak the truth even if your voice shakes</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>challenges make life interesting, however, overcoming them is what makes life meaningful</Original_tweet>
+    <Translate_tweet>challenges make life interesting, however, overcoming them is what makes life meaningful</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>learn how to be happy with what you have while you pursue all that you want</Original_tweet>
+    <Translate_tweet>learn how to be happy with what you have while you pursue all that you want</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>life becomes easier when you learn to accept an apology you never got</Original_tweet>
+    <Translate_tweet>life becomes easier when you learn to accept an apology you never got</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>desire is the starting point of all achievement, not a hope, not a wish, but a keen pulsating desire, which transcends everything</Original_tweet>
+    <Translate_tweet>desire is the starting point of all achievement, not a hope, not a wish, but a keen pulsating desire, which transcends everything</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>oh yes, the past can hurt.  but the way i see it you can either run from it or learn from it</Original_tweet>
+    <Translate_tweet>oh yes, the past can hurt.  but the way i see it you can either run from it or learn from it</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>we are not given a good life or a bad life. we are given a life. it's up to us to make it good or bad</Original_tweet>
+    <Translate_tweet>we are not given a good life or a bad life. we are given a life. it's up to us to make it good or bad</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>if you are willing to sacrifice so that you can follow your dreams and you stay on course no matter how hard things get, great things will happen</Original_tweet>
+    <Translate_tweet>if you are willing to sacrifice so that you can follow your dreams and you stay on course no matter how hard things get, great things will happen</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>anger, hatred and jealousy never solve problems, only affection, concern and respect can do that</Original_tweet>
+    <Translate_tweet>anger, hatred and jealousy never solve problems, only affection, concern and respect can do that</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>failure is not the opposite of success, it's part of success</Original_tweet>
+    <Translate_tweet>failure is not the opposite of success, it's part of success</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>if you want something you have to work for it. if you don't get it, work harder</Original_tweet>
+    <Translate_tweet>if you want something you have to work for it. if you don't get it, work harder</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>i am. two of the most important words. for what you out after them shapes reality</Original_tweet>
+    <Translate_tweet>i am. two of the most important words. for what you out after them shapes reality</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>today is a perfect day for a perfect day</Original_tweet>
+    <Translate_tweet>today is a perfect day for a perfect day</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>never think that gods's delays are god's denials. hold on; hold fast; hold out. patience is genius</Original_tweet>
+    <Translate_tweet>never think that gods's delays are god's denials. hold on; hold fast; hold out. patience is genius</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>only one thing has to change for us to know happiness in our lives: where we focus our attention</Original_tweet>
+    <Translate_tweet>only one thing has to change for us to know happiness in our lives: where we focus our attention</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>the most successive people are those who are willing to take chances and bet on themselves to win. u are capable of far more than u imagine</Original_tweet>
+    <Translate_tweet>the most successive people are those who are willing to take chances and bet on themselves to win. u are capable of far more than u imagine</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>its not about perfect. its about effort. and when you bring that effort everyday, thats where transformation happen. thats how change occurs</Original_tweet>
+    <Translate_tweet>its not about perfect. its about effort. and when you bring that effort everyday, thats where transformation happen. thats how change occurs</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>when you need something to believe in, start with yourself</Original_tweet>
+    <Translate_tweet>when you need something to believe in, start with yourself</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>now and then its good to pause in our pursuit of happiness and just be happy</Original_tweet>
+    <Translate_tweet>now and then its good to pause in our pursuit of happiness and just be happy</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>in our daily life we must see that it is not happiness that makes us grateful, but gratefulness that makes us happy</Original_tweet>
+    <Translate_tweet>in our daily life we must see that it is not happiness that makes us grateful, but gratefulness that makes us happy</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>nothing last forever, not even your problems #staypositive</Original_tweet>
+    <Translate_tweet>nothing last forever, not even your problems #staypositive</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>above all, do not stop</Original_tweet>
+    <Translate_tweet>above all, do not stop</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>no more effort is required to aim high in life, to demand abundance and prosperity, than is required to accept misery and poverty</Original_tweet>
+    <Translate_tweet>no more effort is required to aim high in life, to demand abundance and prosperity, than is required to accept misery and poverty</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>success come to those who become success conscious</Original_tweet>
+    <Translate_tweet>success come to those who become success conscious</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>one small positive thought in the morning can change your whole day</Original_tweet>
+    <Translate_tweet>one small positive thought in the morning can change your whole day</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>a year from now you will wish you had started today</Original_tweet>
+    <Translate_tweet>a year from now you will wish you had started today</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>never give up on a dream because of the time it'll take to accomplish. the time will pass anyway</Original_tweet>
+    <Translate_tweet>never give up on a dream because of the time it'll take to accomplish. the time will pass anyway</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>under any circumstance, simply do your best, and you will avoid self-judgment, self-abuse, and regret</Original_tweet>
+    <Translate_tweet>under any circumstance, simply do your best, and you will avoid self-judgment, self-abuse, and regret</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>combining curiosity and hope can yield extraordinary results</Original_tweet>
+    <Translate_tweet>combining curiosity and hope can yield extraordinary results</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>find the good and praise it</Original_tweet>
+    <Translate_tweet>find the good and praise it</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>what you do today can improve all your tomorrows</Original_tweet>
+    <Translate_tweet>what you do today can improve all your tomorrows</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>every bad situation will have something positive. even a dead clock shows correct time twice a day. stay positive in life</Original_tweet>
+    <Translate_tweet>every bad situation will have something positive. even a dead clock shows correct time twice a day. stay positive in life</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>the future can't be predicted, but it can be envisioned and brought lovingly into being</Original_tweet>
+    <Translate_tweet>the future can't be predicted, but it can be envisioned and brought lovingly into being</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>celebrate the progress you are making in life</Original_tweet>
+    <Translate_tweet>celebrate the progress you are making in life</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>every pro was once an amateur.  every expert was once a beginner.  dream big and start now</Original_tweet>
+    <Translate_tweet>every pro was once an amateur.  every expert was once a beginner.  dream big and start now</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>no shortcuts. work for it</Original_tweet>
+    <Translate_tweet>no shortcuts. work for it</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>in god i trust</Original_tweet>
+    <Translate_tweet>in god i trust</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>i am too positive to be doubtful, too optimistic to be fearful, and too determined to be defeated</Original_tweet>
+    <Translate_tweet>i am too positive to be doubtful, too optimistic to be fearful, and too determined to be defeated</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>life is full of give and take. give thanks and take nothing for granted</Original_tweet>
+    <Translate_tweet>life is full of give and take. give thanks and take nothing for granted</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>do not regret growing older.  it is a privilege denied to many</Original_tweet>
+    <Translate_tweet>do not regret growing older.  it is a privilege denied to many</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>you were given this life because you are strong enough to live it</Original_tweet>
+    <Translate_tweet>you were given this life because you are strong enough to live it</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <Precision_recall>
+    <POSITIVE>
+      <Precision>100.0%</Precision>
+      <Recall>72.0%</Recall>
+    </POSITIVE>
+    <POSITIVE_STEMMED>
+      <Precision>100.0%</Precision>
+      <Recall>70.0%</Recall>
+    </POSITIVE_STEMMED>
+  </Precision_recall>
+</tweet_collection>
