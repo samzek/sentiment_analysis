@@ -5,7 +5,9 @@ from lxml import etree as ET
 import sys
 
 
-def create_xml(root,tweetVal,trantweet,s_nostem,s_stem):
+
+#TODO: function da riscrivere in maniera decente
+def create_xml(root,tweetVal,trantweet,s_nostem,s_stem,real_value):
     tweet = ET.SubElement(root,"tweet")
     ET.SubElement(tweet,"Original_tweet").text=tweetVal.decode('utf-8')
     ET.SubElement(tweet,"Translate_tweet").text=trantweet.decode('utf-8')
@@ -21,6 +23,13 @@ def create_xml(root,tweetVal,trantweet,s_nostem,s_stem):
         ET.SubElement(tweet,"Sentiment_stem").text="NEGATIVE"
     else:
         ET.SubElement(tweet,"Sentiment_stem").text="OBJECTIVE"
+    if real_value == 1:
+        ET.SubElement(tweet,"Expected").text="POSITIVE"
+    elif real_value == -1:
+        ET.SubElement(tweet,"Expected").text="NEGATIVE"
+    else:
+        ET.SubElement(tweet,"Expected").text="OBJECTIVE"
+
 
 def create_PR(root):
     pr = ET.SubElement(root,"Precision_recall")
