@@ -74,22 +74,26 @@ def saveData(event):
     s = str.split('\n')
     for i in s:
         p = i.split('|')
-        if len(p) >= 2 and int(p[1]) in {1,-1}:
-            with open("db/"+name+".txt",'w') as file:
-                file.writelines(str)
+        try:
 
-        else:
+            if len(p) >= 2 and int(p[1]) in {1,-1}:
+                with open("db/"+name+".txt",'w') as file:
+                    file.writelines(str)
+            else:
+                label = NewTestBuilder.get_object("label1")
+                label.set_text("ERRORE, INPUT ERRATO : Inserire test nella forma frase|1 o -1|GG/MM/AAAA")
+                control= False
+            if(control):
+                liststore.append([name])
+
+            windowNT = NewTestBuilder.get_object("window1")
+            window.show_all()
+            windowNT.destroy()
+
+        except ValueError as e:
             label = NewTestBuilder.get_object("label1")
             label.set_text("ERRORE, INPUT ERRATO : Inserire test nella forma frase|1 o -1|GG/MM/AAAA")
             control= False
-
-
-    if(control):
-        liststore.append([name])
-
-        windowNT = NewTestBuilder.get_object("window1")
-        window.show_all()
-        windowNT.destroy()
 
 
 
@@ -115,11 +119,11 @@ def show_XML_results (event):
     model, treeiter = treeview.get_selection().get_selected()
     if treeiter != None:
         fout = 'results/'+model[treeiter][0]+".xml"
+        webbrowser.open(fout)
 
     showXML.set_sensitive(False)
 
-    #os.system("gnome-open "+fout)
-    webbrowser.open(fout)
+
 
 def exec_test(event):
     model, treeiter = treeview.get_selection().get_selected()
