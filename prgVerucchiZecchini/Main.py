@@ -4,7 +4,7 @@
 from ExecuteAll import ExecuteAll
 from gi.repository import Gtk
 
-"""
+
 builder = Gtk.Builder()
 builder.add_from_file("GUI.glade")
 
@@ -34,3 +34,4 @@ ExecuteAll('db/NegTweets.txt','results/Negtweet.xml',False)
 
 print "Sentiment Analisys dei tweet di una singola persona : Papa Francesco"
 ExecuteAll('db/PopeTweets100.txt','results/Popetweet.xml',True)
+"""
