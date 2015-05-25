@@ -5,41 +5,32 @@ __author__ = 'micaela'
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import datetime as dt
+import matplotlib.patches as mpatches
+
 
 
 def plotMoodline (dates,moods, moodsS):
 
     correctDates = [dt.datetime.strptime(d,'%d/%m/%Y').date() for d in dates]
 
-    #eventuale ordinamento delle date
-    """
-    prova = []
-    for i in xrange(len(moods)):
-        prova.append((dates[i],moods[i]))
-
-    for i in xrange(len(prova)-1,-1,-1):
-        for j in xrange(0,i):
-            if prova[j][0]>prova[j+1][0]:
-                prova[j], prova[j+1] = prova[j+1],prova[j]
-
-    dates = []
-    moods = []
-    for d,m in prova:
-        dates.append(d)
-        moods.append(m)
-
-    """
-
     fig = plt.figure()
-    withoutStemming = fig.add_subplot(211)
-    withoutStemming.plot(correctDates,moods)
-    withStemming = fig.add_subplot(212)
-    withStemming.plot(correctDates,moodsS)
+    ax = plt.subplot("111")
 
-    withoutStemming.xaxis.set_major_formatter(mdates.DateFormatter('%d/%m/%Y'))
-    withStemming.xaxis.set_major_formatter(mdates.DateFormatter('%d/%m/%Y'))
+    ax.plot(correctDates,moods)
+    ax.plot(correctDates,moodsS)
+
+    ax.set_ylim([-1.0,1.0])
+
+    fig.suptitle("Evalutation of mood without stemming", fontsize=16)
+    plt.xlabel('Date', fontsize=18)
+    plt.ylabel('Mood (1 : positive, -1: negative)', fontsize=16)
+
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%d/%m/%Y'))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%d/%m/%Y'))
     plt.gcf().autofmt_xdate()
+
     plt.show()
+
 
 
 if __name__ == '__main__':
