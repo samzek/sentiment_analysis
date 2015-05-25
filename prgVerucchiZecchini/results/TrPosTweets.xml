@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tweet_collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
+  <tweet>
+    <Original_tweet>oggi è proprio una bella giornata </Original_tweet>
+    <Translate_tweet>Today is a beautiful day</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>sono felice di essere stato scelto per l'hackathon di cervia </Original_tweet>
+    <Translate_tweet>I'm happy to have been chosen for the hackathon cervia</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>abbiamo perso ma è stata un'esperienza molto divertente </Original_tweet>
+    <Translate_tweet>we lost but it was a very fun</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>e' il giorno più bello della mia vita : la juve è in finale </Original_tweet>
+    <Translate_tweet>and 'the best day of my life: Juve is in final</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>oggi ho mangiato un kebab con paolo ed è stato davvero emozionante </Original_tweet>
+    <Translate_tweet>Today I ate a kebab with paul and it was really exciting</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>sono davvero contento di poter lavorare con un ragazzo ameba! </Original_tweet>
+    <Translate_tweet>I'm really happy to be working with a guy amoeba!</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>oggi una mia amica mi ha portato una buonissima torta alle fragole </Original_tweet>
+    <Translate_tweet>Today a friend of mine brought me a delicious strawberry pie</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>non vedo l'ora che inizi il concerto dei miei cantanti preferiti </Original_tweet>
+    <Translate_tweet>I can not wait to begin the concert of my favorite singers</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>che bello averti incontrata claudia! </Original_tweet>
+    <Translate_tweet>that good to have you met claudia!</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>che gioia questo progetto </Original_tweet>
+    <Translate_tweet>joy that this project</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>i fedeli laici sono chiamati a diventare fermento di vita cristiana in tutta la società. </Original_tweet>
+    <Translate_tweet>the lay faithful are called to be leaven in the whole society.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>l’école de la république, c’est l'école qui amène un enfant d’une famille modeste à l’excellence </Original_tweet>
+    <Translate_tweet>school of the republic, it is the school that takes a child from a modest family to excellence</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>borsa, le blue chip battono le stime </Original_tweet>
+    <Translate_tweet>bag, blue chips beat estimates</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>riforma scuola, la camera dice sì allo school bonus </Original_tweet>
+    <Translate_tweet>Reform school, the chamber says yes to school bonus</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>borse europee in crescita. l’euro in calo </Original_tweet>
+    <Translate_tweet>European shares rise. the euro down</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>mps raggruppa le azioni, il titolo cade in borsa </Original_tweet>
+    <Translate_tweet>mps groups the shares, the stock falls in stock market</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>l’fmi alza le stime di crescita per l’italia </Original_tweet>
+    <Translate_tweet>the IMF raises growth forecast for Italy</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>finalmente la verità. oggi è una bella giornata per la politica, per la giustizia, per lo stato di diritto. </Original_tweet>
+    <Translate_tweet>finally the truth. Today is a beautiful day for politics, for justice, for the rule of law.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>cinque anni alla guida della juve. buon anniversario presidente!!! </Original_tweet>
+    <Translate_tweet>five years at the helm of juve. happy anniversary President !!!</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>ora trovare modo di assumere più precari </Original_tweet>
+    <Translate_tweet>now find a way to hire more temporary workers</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>sono felice felice felicissima, oggi è un giorno bello bellissimo </Original_tweet>
+    <Translate_tweet>I'm happy happy happy, today is a beautiful day beautiful</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>le sage n'est jamais joyeux, il est content.</Original_tweet>
+    <Translate_tweet>the wise man is never happy, he is happy.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>s'aider à vivre est bon ; être compris est doux ; l'amitié rend heureux et joyeux.</Original_tweet>
+    <Translate_tweet>help themselves to live is good; be understood is soft; Friendship makes happy and joyful.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>un cœur joyeux, voilà le meilleur des soutiens</Original_tweet>
+    <Translate_tweet>a joyful heart, that's the best support</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>lorsqu'on est heureux, lorsqu'on est joyeux, le bonheur vient sans qu'on l'invite.</Original_tweet>
+    <Translate_tweet>when you are happy when you are happy, happiness comes without being prompted.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>il n’y a rien comme un esprit joyeux pour tenir le corps en santé.</Original_tweet>
+    <Translate_tweet>there's nothing like a joyful spirit to keep the body healthy.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>la joie s'acquiert. elle est une attitude de courage. etre joyeux n'est pas une facilité, c'est une volonté.</Original_tweet>
+    <Translate_tweet>joy is acquired. She is a courageous attitude. be happy is not easy, it is a will.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>nicht die glücklichen sind dankbar. es sind die dankbaren, die glücklich sind.</Original_tweet>
+    <Translate_tweet>not happy are grateful. there are the grateful who are happy.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>glücklich ist nicht, wer anderen so vorkommt, sondern wer sich selbst dafür hält.</Original_tweet>
+    <Translate_tweet>happy is not who other as occurs, but who thinks of himself for that.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>wenn man glücklich ist, soll man nicht noch glücklicher sein wollen.</Original_tweet>
+    <Translate_tweet>if you're happy, should not want to be even happier.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>glück ist nicht eine station, wo man ankommt, sondern eine art zu reisen</Original_tweet>
+    <Translate_tweet>Happiness is not a station where you arrive, but a traveling art</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>es gibt keinen weg zum glücklichsein. glücklichsein ist der weg.</Original_tweet>
+    <Translate_tweet>there is no way to happiness. Happiness is the way.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>wer ständig glücklich sein möchte, muss sich oft verändern.</Original_tweet>
+    <Translate_tweet>Who wants to be happy constantly, to have to change often.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>glück entsteht oft durch aufmerksamkeit in kleinen dingen, unglück oft durch vernachlässigung kleiner dinge.</Original_tweet>
+    <Translate_tweet>Happiness often comes through attention to little things, misfortune often neglect small things.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>die meisten menschen sind so glücklich, wie sie es sich selbst vorgenommen haben.</Original_tweet>
+    <Translate_tweet>Most people are as happy as they have made themselves.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>l’uomo più felice è quello nel cui animo non c’è alcuna traccia di cattiveria.</Original_tweet>
+    <Translate_tweet>the happiest man is the one in whose spirit there is no trace of malice.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>i tre grandi elementi essenziali alla felicità in questa vita sono qualcosa da fare, qualcosa da amare, e qualcosa da sperare.</Original_tweet>
+    <Translate_tweet>the three great essentials to happiness in this life are something to do, something to love, and something to hope for.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>saber encontrar a alegria na alegria dos outros, é o segredo da felicidade.</Original_tweet>
+    <Translate_tweet>learn to find joy in the joy of others, it is the secret of happiness.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>a amizade desenvolve a felicidade e reduz o sofrimento, duplicando a nossa alegria e dividindo a nossa dor.</Original_tweet>
+    <Translate_tweet>friendship develops happiness and reduce suffering, doubling our joy and sharing our pain.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>a alegria evita mil males e prolonga a vida.</Original_tweet>
+    <Translate_tweet>the joy prevents thousand evils and prolongs life.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>a alegria de fazer o bem é a única felicidade verdadeira.</Original_tweet>
+    <Translate_tweet>the joy of doing good is the only true happiness.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>a alegria não está nas coisas, está em nós.</Original_tweet>
+    <Translate_tweet>Joy is not in things, in us.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>deus nunca perturba a alegria dos seus filhos se não for para lhes preparar uma mais certa e maior.</Original_tweet>
+    <Translate_tweet>God never disturbs the joy of your children if not to prepare them a surer and greater.</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>não há satisfação maior do que aquela que sentimos quando proporcionamos alegria aos outros.</Original_tweet>
+    <Translate_tweet>there is no greater satisfaction than that we feel when we provide joy to others.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>a alegria que se tem em pensar e aprender faz-nos pensar e aprender ainda mais.</Original_tweet>
+    <Translate_tweet>the joy one has in thinking and learning makes us think and learn even more.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>a todos os que sofrem e estão sós, dai sempre um sorriso de alegria. não lhes proporciones apenas os vossos cuidados, mas também o vosso coração.</Original_tweet>
+    <Translate_tweet>to all who suffer and are lonely, give always a smile of joy. proporciones them not only your care, but also your heart.</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>sono contenta perchè ho quasi finito con queste frasi </Original_tweet>
+    <Translate_tweet>I'm happy because I'm almost done with these sentences</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>mia sorella non smette di ridere : è davvero contenta</Original_tweet>
+    <Translate_tweet>my sister will not stop laughing is really happy</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <tweet>
+    <Original_tweet>che bello che oggi andiamo al mare! </Original_tweet>
+    <Translate_tweet>that good that today we go to the sea!</Translate_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+  </tweet>
+  <Precision_recall>
+    <POSITIVE>
+      <Precision>100.0%</Precision>
+      <Recall>87.76%</Recall>
+    </POSITIVE>
+    <POSITIVE_STEMMED>
+      <Precision>100.0%</Precision>
+      <Recall>75.51%</Recall>
+    </POSITIVE_STEMMED>
+  </Precision_recall>
+</tweet_collection>

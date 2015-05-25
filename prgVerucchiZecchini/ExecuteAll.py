@@ -9,6 +9,7 @@ from Plot import plotMoodline
 from xml_creator import *
 from lxml import etree as ET
 import sys
+from gi.repository import Gtk
 
 def check(tweetValue,retrieved,intersection,realValue,t):
     if tweetValue == t :
@@ -20,11 +21,14 @@ def check(tweetValue,retrieved,intersection,realValue,t):
 
 def calc_precision_recall(retrieved,intersection,relevant):
     #Precision: attinenti intersecato recuperati /recuperati
-    precision = intersection / float(retrieved) *100
-    print "\tPRECISION: ", precision,"%"
+    if retrieved == 0:
+        precision = 0
+    else:
+        precision = intersection / float(retrieved) *100
+    #print "\tPRECISION: ", precision,"%"
     #Recall: attinenti intersecato recuperati /attinenti
     recall = intersection / float(relevant) *100
-    print "\tRECALL", recall,"%"
+    #print "\tRECALL", recall,"%"
 
     return round(precision,2),round(recall,2)
 
@@ -61,7 +65,7 @@ def ExecuteAll(file_input,file_output, plot):
     root = ET.Element("tweet_collection")
 
     for t in tweets:
-        print "Original tweet ",t
+        #print "Original tweet ",t
 
         tweetLower = t.lower()
 
@@ -70,9 +74,16 @@ def ExecuteAll(file_input,file_output, plot):
 
         #translation
         if lng != 'english':
-            gs = goslate.Goslate()
-            translateTweet = gs.translate(tweetLower,'en')
-            print "Translate tweet",translateTweet
+            try:
+                gs = goslate.Goslate()
+                translateTweet = gs.translate(tweetLower,'en')
+                #print "Translate tweet",translateTweet
+            except Exception as e:
+                md = Gtk.MessageDialog(None, 0,Gtk.MessageType.ERROR,Gtk.ButtonsType.OK, "No connection found!")
+                md.run()
+                md.destroy()
+                return [],[],[]
+
         else:
             translateTweet = tweetLower
 
@@ -80,7 +91,7 @@ def ExecuteAll(file_input,file_output, plot):
         tokens,tokens_stemmed =  Preprocess(translateTweet)
 
         #SentiWordNet
-        print "Results without stemming : ",
+        #print "Results without stemming : ",
         tweetValue,moodValue = senti_analisys(tokens)
         if pos:
             retrieved[0],intersection[0] = check(tweetValue,retrieved[0],intersection[0],int(mood[count]),1)
@@ -91,7 +102,7 @@ def ExecuteAll(file_input,file_output, plot):
 
         retrMoods.append(moodValue)
 
-        print "Results with stemming : ",
+        #print "Results with stemming : ",
         tweetValueS,moodValue = senti_analisys(tokens_stemmed)
         if pos:
             retrieved[2],intersection[2] = check(tweetValueS,retrieved[2],intersection[2],int(mood[count]),1)
@@ -106,6 +117,9 @@ def ExecuteAll(file_input,file_output, plot):
         count += 1
 
     tagPR = create_PR(root)
+    prList = []
+    reList = []
+    caseDone = []
     #precision and removal
     resCase = ["POSITIVE","NEGATIVE","POSITIVE_STEMMED","NEGATIVE_STEMMED"]
     for i in xrange(4):
@@ -113,8 +127,11 @@ def ExecuteAll(file_input,file_output, plot):
             continue
         if pos==False and i in {0,2}:
             continue
-        print resCase[i]
+        #print resCase[i]
         precision,recall=calc_precision_recall(retrieved[i],intersection[i],relevant[i])
+        prList.append(precision)
+        reList.append(recall)
+        caseDone.append(resCase[i])
         add_PR_to_xml(tagPR,resCase[i],precision,recall)
 
     #write XML
@@ -124,7 +141,7 @@ def ExecuteAll(file_input,file_output, plot):
     if plot:
        plotMoodline(returnDates(file_input),retrMoods, retrMoodsS)
 
-
+    return  caseDone,prList,reList
 
 if __name__ == '__main__':
-    ExecuteAll('db/PopeTweets100.txt','results/Popetweet.xml',True)
+    ExecuteAll('db/Pope.txt','results/tweet.xml',False)
