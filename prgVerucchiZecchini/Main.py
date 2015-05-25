@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from ExecuteAll import ExecuteAll
+<<<<<<< HEAD
 from gi.repository import Gtk
 
 
@@ -13,6 +14,8 @@ window.show_all()
 
 Gtk.main()
 """
+=======
+>>>>>>> 6aa5c4491784b3e546498707ab9242a03ece4672
 
 print "Sentiment Analisys di tweet da tradurre sia positivi che negativi"
 ExecuteAll('db/TrPosNegTweets.txt','results/TrPosNegtweet.xml',False)
@@ -34,4 +37,7 @@ ExecuteAll('db/NegTweets.txt','results/Negtweet.xml',False)
 
 print "Sentiment Analisys dei tweet di una singola persona : Papa Francesco"
 ExecuteAll('db/PopeTweets100.txt','results/Popetweet.xml',True)
+<<<<<<< HEAD
 """
+=======
+>>>>>>> 6aa5c4491784b3e546498707ab9242a03ece4672
