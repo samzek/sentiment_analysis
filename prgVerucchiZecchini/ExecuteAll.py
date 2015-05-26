@@ -44,13 +44,10 @@ def calcPosAndNeg(file_input):
 
     return pos,neg
 
-
-
-
 def ExecuteAll(file_input,file_output, plot):
 
     pos,neg = calcPosAndNeg(file_input)
-
+    lng = 'english'
     #0 : positive       1: negative     2: positive and stemmed     3: negative and stemmed
     retrieved = [0,0,0,0]  #recuperati
     intersection = [0,0,0,0]  #intersezione
@@ -138,7 +135,7 @@ def ExecuteAll(file_input,file_output, plot):
     if plot:
        plotMoodline(returnDates(file_input),retrMoods, retrMoodsS)
 
-    return  caseDone,prList,reList
+    return  caseDone,prList,reList,lng
 
 if __name__ == '__main__':
     ExecuteAll('db/Pope.txt','results/tweet.xml',False)

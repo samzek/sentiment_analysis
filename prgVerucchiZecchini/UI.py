@@ -120,6 +120,7 @@ def open_error(event):
         fout = 'results/'+model[treeiter][0]+".xml"
     """
     global last_file_open
+    global lang
     if last_file_open != None:
         NewTestBuilder.add_from_file("InsertNewTest.glade")
         windowError = NewTestBuilder.get_object("window2")
@@ -128,7 +129,7 @@ def open_error(event):
         window.hide()
         windowError.connect("delete-event", on_delete_event)
         buffer = Gtk.TextBuffer()
-        buffer.set_text(parse_XML(last_file_open))
+        buffer.set_text(parse_XML(last_file_open,lang))
         text.set_buffer(buffer)
 
 
@@ -148,6 +149,7 @@ def show_XML_results (event):
 
 def exec_test(event):
     global last_file_open
+    global lang
     model, treeiter = treeview.get_selection().get_selected()
     if treeiter != None:
         fin = 'db/'+ model[treeiter][0]+".txt"
@@ -155,9 +157,9 @@ def exec_test(event):
 
         last_file_open = fout
         if model[treeiter][0] == "PopeTweets100":
-            resCase,prList,reList = ExecuteAll(fin,fout,True)
+            resCase,prList,reList,lang = ExecuteAll(fin,fout,True)
         else:
-            resCase,prList,reList = ExecuteAll(fin,fout,False)
+            resCase,prList,reList,lang = ExecuteAll(fin,fout,False)
 
         buf = ''
         for i in xrange(len(prList)):
@@ -216,6 +218,7 @@ showXML.connect('clicked', show_XML_results)
 results = builder.get_object("textview1")
 
 last_file_open = None
+lang = None
 
 window.show_all()
 window.connect("delete-event", Gtk.main_quit)
