@@ -3,6 +3,7 @@ __author__ = 'micaela'
 #  -*- coding: utf-8 -*-
 
 import matplotlib.pyplot as plt
+from matplotlib.pyplot import legend
 import matplotlib.dates as mdates
 import datetime as dt
 import matplotlib.patches as mpatches
@@ -16,12 +17,13 @@ def plotMoodline (dates,moods, moodsS):
     fig = plt.figure()
     ax = plt.subplot("111")
 
-    ax.plot(correctDates,moods)
-    ax.plot(correctDates,moodsS)
+    ax.plot(correctDates,moods,label="Without Stemming")
+    ax.plot(correctDates,moodsS, label="With Stemming")
+    legend(loc=1, borderaxespad=0.)
 
     ax.set_ylim([-1.0,1.0])
 
-    fig.suptitle("Evalutation of mood without stemming", fontsize=16)
+    fig.suptitle("Evalutation of mood without and with stemming", fontsize=16)
     plt.xlabel('Date', fontsize=18)
     plt.ylabel('Mood (1 : positive, -1: negative)', fontsize=16)
 
