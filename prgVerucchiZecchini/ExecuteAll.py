@@ -77,7 +77,6 @@ def ExecuteAll(file_input,file_output, plot):
             try:
                 gs = goslate.Goslate()
                 translateTweet = gs.translate(tweetLower,'en')
-                #print "Translate tweet",translateTweet
             except Exception as e:
                 md = Gtk.MessageDialog(None, 0,Gtk.MessageType.ERROR,Gtk.ButtonsType.OK, "No connection found!")
                 md.run()
@@ -91,18 +90,16 @@ def ExecuteAll(file_input,file_output, plot):
         tokens,tokens_stemmed =  Preprocess(translateTweet)
 
         #SentiWordNet
-        #print "Results without stemming : ",
         tweetValue,moodValue = senti_analisys(tokens)
+
         if pos:
             retrieved[0],intersection[0] = check(tweetValue,retrieved[0],intersection[0],int(mood[count]),1)
-        #print "valori A, Ra,R POS",retrieved[0],intersection[0],returnNPos()
+
         if neg:
             retrieved[1],intersection[1] = check(tweetValue,retrieved[1],intersection[1],int(mood[count]),-1)
-        #print "valori A, Ra,R NEG",retrieved[1],intersection[1],returnNNeg()
 
         retrMoods.append(moodValue)
 
-        #print "Results with stemming : ",
         tweetValueS,moodValue = senti_analisys(tokens_stemmed)
         if pos:
             retrieved[2],intersection[2] = check(tweetValueS,retrieved[2],intersection[2],int(mood[count]),1)
@@ -112,7 +109,7 @@ def ExecuteAll(file_input,file_output, plot):
         retrMoodsS.append(moodValue)
 
         #create XML
-        create_xml(root,tweetLower,translateTweet,tweetValue,tweetValueS)
+        create_xml(root,tweetLower,translateTweet,tweetValue,tweetValueS,int(mood[count]))
 
         count += 1
 

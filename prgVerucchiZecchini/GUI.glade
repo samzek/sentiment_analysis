@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.16.1 -->
 <interface>
-  <requires lib="gtk+" version="3.0"/>
-  <object class="GtkListStore" id="liststore1">
-    <columns>
-      <!-- column-name test -->
-      <column type="gchararray"/>
-    </columns>
-  </object>
+  <!-- interface-requires gtk+ 3.0 -->
   <object class="GtkWindow" id="MainWindow">
     <property name="width_request">900</property>
     <property name="height_request">700</property>
@@ -118,30 +111,22 @@ by Mive e Samzek</property>
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <child>
-                      <object class="GtkTreeView" id="treeview1">
+                      <object class="GtkScrolledWindow" id="scrolledwindow1">
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
-                        <property name="model">liststore1</property>
-                        <child internal-child="selection">
-                          <object class="GtkTreeSelection" id="treeview-selection1"/>
+                        <property name="shadow_type">in</property>
+                        <child>
+                          <object class="GtkTreeView" id="treeview1">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="model">liststore1</property>
+                          </object>
                         </child>
                       </object>
                       <packing>
                         <property name="expand">True</property>
                         <property name="fill">True</property>
                         <property name="position">0</property>
-                      </packing>
-                    </child>
-                    <child>
-                      <object class="GtkScrollbar" id="scrollbar1">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="orientation">vertical</property>
-                      </object>
-                      <packing>
-                        <property name="expand">False</property>
-                        <property name="fill">True</property>
-                        <property name="position">1</property>
                       </packing>
                     </child>
                   </object>
@@ -181,6 +166,7 @@ by Mive e Samzek</property>
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
+                    <property name="use_action_appearance">False</property>
                     <property name="image_position">right</property>
                     <child>
                       <object class="GtkImage" id="image2">
@@ -249,18 +235,6 @@ by Mive e Samzek</property>
                         <property name="position">0</property>
                       </packing>
                     </child>
-                    <child>
-                      <object class="GtkScrollbar" id="scrollbar2">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="orientation">vertical</property>
-                      </object>
-                      <packing>
-                        <property name="expand">False</property>
-                        <property name="fill">True</property>
-                        <property name="position">1</property>
-                      </packing>
-                    </child>
                   </object>
                   <packing>
                     <property name="expand">True</property>
@@ -296,6 +270,7 @@ by Mive e Samzek</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <property name="use_action_appearance">False</property>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -305,9 +280,13 @@ by Mive e Samzek</property>
               </packing>
             </child>
             <child>
-              <object class="GtkFixed" id="fixed3">
+              <object class="GtkButton" id="button2">
+                <property name="label" translatable="yes">Show sentiment error</property>
+                <property name="use_action_appearance">False</property>
                 <property name="visible">True</property>
-                <property name="can_focus">False</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="use_action_appearance">False</property>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -322,6 +301,7 @@ by Mive e Samzek</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <property name="use_action_appearance">False</property>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -340,5 +320,11 @@ by Mive e Samzek</property>
         </child>
       </object>
     </child>
+  </object>
+  <object class="GtkListStore" id="liststore1">
+    <columns>
+      <!-- column-name test -->
+      <column type="gchararray"/>
+    </columns>
   </object>
 </interface>

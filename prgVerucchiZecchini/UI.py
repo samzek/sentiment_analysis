@@ -7,6 +7,7 @@ import goslate
 from Preprocessing import Preprocess
 from SentiAnalisys import  senti_analisys
 from ExecuteAll import ExecuteAll
+from XML_parser import parse_XML
 import os
 import webbrowser
 
@@ -29,8 +30,6 @@ def keyPress(widget, event):
             if lng != 'english':
                 gs = goslate.Goslate()
                 translateS = gs.translate(sLower,'en')
-
-
 
             else:
                 translateS = sLower
@@ -101,7 +100,6 @@ def load_new_test(event):
 
     NewTestBuilder.add_from_file("InsertNewTest.glade")
 
-
     windowNT = NewTestBuilder.get_object("window1")
 
     windowNT.show_all()
@@ -113,6 +111,22 @@ def load_new_test(event):
 
     dataName = NewTestBuilder.get_object("entry1")
     dataName.connect('key-press-event', nameInserted)
+
+
+def open_error(event):
+    fout = ""
+    model, treeiter = treeview.get_selection().get_selected()
+    if treeiter != None:
+        fout = 'results/'+model[treeiter][0]+".xml"
+    NewTestBuilder.add_from_file("InsertNewTest.glade")
+    windowError = NewTestBuilder.get_object("window2")
+    text = NewTestBuilder.get_object("textview2")
+    windowError.show_all()
+    window.hide()
+    windowError.connect("delete-event", on_delete_event)
+    buffer = Gtk.TextBuffer()
+    buffer.set_text(parse_XML(fout))
+    text.set_buffer(buffer)
 
 
 def show_XML_results (event):
@@ -131,12 +145,10 @@ def exec_test(event):
         fin = 'db/'+ model[treeiter][0]+".txt"
         fout = 'results/'+model[treeiter][0]+".xml"
 
-
         if model[treeiter][0] == "PopeTweets100":
             resCase,prList,reList = ExecuteAll(fin,fout,True)
         else:
             resCase,prList,reList = ExecuteAll(fin,fout,False)
-
 
         buf = ''
         for i in xrange(len(prList)):
@@ -146,11 +158,7 @@ def exec_test(event):
 
         results.set_buffer(buffer)
         showXML.set_sensitive(True)
-
-
-
-
-
+        SentiError.set_sensitive(True)
 
 
 NewTestBuilder = Gtk.Builder()
@@ -188,6 +196,10 @@ execTest.connect('clicked', exec_test)
 
 loadTest = builder.get_object("button1")
 loadTest.connect('clicked', load_new_test)
+
+SentiError = builder.get_object("button2")
+SentiError.set_sensitive(False)
+SentiError.connect('clicked', open_error)
 
 showXML = builder.get_object("button3")
 showXML.set_sensitive(False)
