@@ -9,9 +9,14 @@ def parse_XML(file):
     dom = xml.dom.minidom.parse(file)
     rootel = dom.documentElement
     topnodes = rootel.childNodes
+
+
     for i in topnodes:
         child = i.childNodes
+        if len(child) == 0:
+            continue
         for el in child:
+
             descendant = el.childNodes
             #print descendant
             if len(descendant) == 0:
@@ -28,9 +33,10 @@ def parse_XML(file):
                 elif elem.parentNode.nodeName == "Translate_tweet":
                     trs = elem.nodeValue
 
-            if nostm != exp or stm != exp:
-                buf += "Original tweet "+org + "\n" +"Translate tweet"+trs +"\n"+\
-                      "No Stemmed: "+nostm+"\nStemmed: "+stm+"\nExpected: "+exp+"\n"
+        if nostm != exp or stm != exp:
+            buf += "Original tweet:\t"+org + "\n" +"Translate tweet:\t"+trs +"\n"+\
+                "No Stemmed:\t"+nostm+"\nStemmed:\t"+stm+"\nExpected:\t"+exp+"\n\n"
+
     return buf
 
 if __name__ == '__main__':
