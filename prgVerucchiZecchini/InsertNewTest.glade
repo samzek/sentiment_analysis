@@ -9,6 +9,7 @@
     <property name="window_position">center</property>
     <property name="default_width">440</property>
     <property name="default_height">250</property>
+    <property name="icon">images/graph-icon.png</property>
     <child>
       <object class="GtkBox" id="box1">
         <property name="visible">True</property>
