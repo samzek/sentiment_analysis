@@ -114,37 +114,46 @@ def load_new_test(event):
 
 
 def open_error(event):
-    fout = ""
+    """
     model, treeiter = treeview.get_selection().get_selected()
     if treeiter != None:
         fout = 'results/'+model[treeiter][0]+".xml"
-    NewTestBuilder.add_from_file("InsertNewTest.glade")
-    windowError = NewTestBuilder.get_object("window2")
-    text = NewTestBuilder.get_object("textview2")
-    windowError.show_all()
-    window.hide()
-    windowError.connect("delete-event", on_delete_event)
-    buffer = Gtk.TextBuffer()
-    buffer.set_text(parse_XML(fout))
-    text.set_buffer(buffer)
+    """
+    global last_file_open
+    if last_file_open != None:
+        NewTestBuilder.add_from_file("InsertNewTest.glade")
+        windowError = NewTestBuilder.get_object("window2")
+        text = NewTestBuilder.get_object("textview2")
+        windowError.show_all()
+        window.hide()
+        windowError.connect("delete-event", on_delete_event)
+        buffer = Gtk.TextBuffer()
+        buffer.set_text(parse_XML(last_file_open))
+        text.set_buffer(buffer)
 
 
 def show_XML_results (event):
+    """
     model, treeiter = treeview.get_selection().get_selected()
     if treeiter != None:
         fout = 'results/'+model[treeiter][0]+".xml"
-        webbrowser.open(fout)
+    """
+    global last_file_open
+    if last_file_open != None:
+        webbrowser.open(last_file_open)
 
-    showXML.set_sensitive(False)
+    #showXML.set_sensitive(False)
 
 
 
 def exec_test(event):
+    global last_file_open
     model, treeiter = treeview.get_selection().get_selected()
     if treeiter != None:
         fin = 'db/'+ model[treeiter][0]+".txt"
         fout = 'results/'+model[treeiter][0]+".xml"
 
+        last_file_open = fout
         if model[treeiter][0] == "PopeTweets100":
             resCase,prList,reList = ExecuteAll(fin,fout,True)
         else:
@@ -157,8 +166,8 @@ def exec_test(event):
         buffer.set_text(buf)
 
         results.set_buffer(buffer)
-        showXML.set_sensitive(True)
-        SentiError.set_sensitive(True)
+        #showXML.set_sensitive(True)
+        #SentiError.set_sensitive(True)
 
 
 NewTestBuilder = Gtk.Builder()
@@ -167,7 +176,6 @@ builder = Gtk.Builder()
 builder.add_from_file("GUI.glade")
 
 window = builder.get_object("MainWindow")
-
 
 textField = builder.get_object("entry1")
 textField.connect('key-press-event', keyPress)
@@ -198,15 +206,16 @@ loadTest = builder.get_object("button1")
 loadTest.connect('clicked', load_new_test)
 
 SentiError = builder.get_object("button2")
-SentiError.set_sensitive(False)
+#SentiError.set_sensitive(False)
 SentiError.connect('clicked', open_error)
 
 showXML = builder.get_object("button3")
-showXML.set_sensitive(False)
+#showXML.set_sensitive(False)
 showXML.connect('clicked', show_XML_results)
 
 results = builder.get_object("textview1")
 
+last_file_open = None
 
 window.show_all()
 window.connect("delete-event", Gtk.main_quit)
