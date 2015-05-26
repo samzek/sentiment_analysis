@@ -13,6 +13,9 @@ def parse_XML(file):
         child = i.childNodes
         for el in child:
             descendant = el.childNodes
+            #print descendant
+            if len(descendant) == 0:
+                continue
             for elem in descendant:
                 if elem.parentNode.nodeName == "Sentiment_nostem":
                     nostm = elem.nodeValue
@@ -31,4 +34,4 @@ def parse_XML(file):
     return buf
 
 if __name__ == '__main__':
-    parse_XML("results/PopeTweets100.xml")
+    print parse_XML("results/PopeTweets100.xml")
