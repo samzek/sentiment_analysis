@@ -2,16 +2,16 @@
 <tweet_collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
   <tweet>
-    <Original_tweet>questa è una prova </Original_tweet>
-    <Translate_tweet>this is a test</Translate_tweet>
-    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Original_tweet>hey i just met you, and this is crazy, but here's my numer so call me maybe </Original_tweet>
+    <Translate_tweet>hey i just met you, and this is crazy, but here's my numer so call me maybe </Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
     <Expected>POSITIVE</Expected>
   </tweet>
   <Precision_recall>
     <POSITIVE>
-      <Precision>100.0%</Precision>
-      <Recall>100.0%</Recall>
+      <Precision>0.0%</Precision>
+      <Recall>0.0%</Recall>
     </POSITIVE>
     <POSITIVE_STEMMED>
       <Precision>100.0%</Precision>

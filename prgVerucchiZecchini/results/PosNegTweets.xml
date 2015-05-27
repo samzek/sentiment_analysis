@@ -6,616 +6,716 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
     <Translate_tweet>you can fail at what you don't like, so you might as well take a chance at doing what you love</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>sometimes you have to wait a moment for your moment</Original_tweet>
     <Translate_tweet>sometimes you have to wait a moment for your moment</Translate_tweet>
     <Sentiment_nostem>OBJECTIVE</Sentiment_nostem>
     <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>trust your struggle</Original_tweet>
     <Translate_tweet>trust your struggle</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>you can't live a positive life with a negative mind</Original_tweet>
     <Translate_tweet>you can't live a positive life with a negative mind</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>every day may not be good. but there's something good in everyday</Original_tweet>
     <Translate_tweet>every day may not be good. but there's something good in everyday</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>learn your craft. practice your craft. know your craft. breathe your craft. love your craft. live your craft. be your craft.</Original_tweet>
     <Translate_tweet>learn your craft. practice your craft. know your craft. breathe your craft. love your craft. live your craft. be your craft.</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>one small positive thought in the morning can change your whole day</Original_tweet>
     <Translate_tweet>one small positive thought in the morning can change your whole day</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>small daily improvements are the key to staggering long-term results</Original_tweet>
     <Translate_tweet>small daily improvements are the key to staggering long-term results</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>be open to whatever comes next</Original_tweet>
     <Translate_tweet>be open to whatever comes next</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>speak the truth even if your voice shakes</Original_tweet>
     <Translate_tweet>speak the truth even if your voice shakes</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>challenges make life interesting, however, overcoming them is what makes life meaningful</Original_tweet>
     <Translate_tweet>challenges make life interesting, however, overcoming them is what makes life meaningful</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>learn how to be happy with what you have while you pursue all that you want</Original_tweet>
     <Translate_tweet>learn how to be happy with what you have while you pursue all that you want</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>life becomes easier when you learn to accept an apology you never got</Original_tweet>
     <Translate_tweet>life becomes easier when you learn to accept an apology you never got</Translate_tweet>
-    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>desire is the starting point of all achievement, not a hope, not a wish, but a keen pulsating desire, which transcends everything</Original_tweet>
     <Translate_tweet>desire is the starting point of all achievement, not a hope, not a wish, but a keen pulsating desire, which transcends everything</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>oh yes, the past can hurt.  but the way i see it you can either run from it or learn from it</Original_tweet>
     <Translate_tweet>oh yes, the past can hurt.  but the way i see it you can either run from it or learn from it</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>we are not given a good life or a bad life. we are given a life. it's up to us to make it good or bad</Original_tweet>
     <Translate_tweet>we are not given a good life or a bad life. we are given a life. it's up to us to make it good or bad</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>if you are willing to sacrifice so that you can follow your dreams and you stay on course no matter how hard things get, great things will happen</Original_tweet>
     <Translate_tweet>if you are willing to sacrifice so that you can follow your dreams and you stay on course no matter how hard things get, great things will happen</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>anger, hatred and jealousy never solve problems, only affection, concern and respect can do that</Original_tweet>
     <Translate_tweet>anger, hatred and jealousy never solve problems, only affection, concern and respect can do that</Translate_tweet>
-    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>failure is not the opposite of success, it's part of success</Original_tweet>
     <Translate_tweet>failure is not the opposite of success, it's part of success</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>if you want something you have to work for it. if you don't get it, work harder</Original_tweet>
     <Translate_tweet>if you want something you have to work for it. if you don't get it, work harder</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>i am. two of the most important words. for what you out after them shapes reality</Original_tweet>
     <Translate_tweet>i am. two of the most important words. for what you out after them shapes reality</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>today is a perfect day for a perfect day</Original_tweet>
     <Translate_tweet>today is a perfect day for a perfect day</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>never think that gods's delays are god's denials. hold on; hold fast; hold out. patience is genius</Original_tweet>
     <Translate_tweet>never think that gods's delays are god's denials. hold on; hold fast; hold out. patience is genius</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
-    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>only one thing has to change for us to know happiness in our lives: where we focus our attention</Original_tweet>
     <Translate_tweet>only one thing has to change for us to know happiness in our lives: where we focus our attention</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>the most successive people are those who are willing to take chances and bet on themselves to win. u are capable of far more than u imagine</Original_tweet>
     <Translate_tweet>the most successive people are those who are willing to take chances and bet on themselves to win. u are capable of far more than u imagine</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>its not about perfect. its about effort. and when you bring that effort everyday, thats where transformation happen. thats how change occurs</Original_tweet>
     <Translate_tweet>its not about perfect. its about effort. and when you bring that effort everyday, thats where transformation happen. thats how change occurs</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>when you need something to believe in, start with yourself</Original_tweet>
     <Translate_tweet>when you need something to believe in, start with yourself</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>now and then its good to pause in our pursuit of happiness and just be happy</Original_tweet>
     <Translate_tweet>now and then its good to pause in our pursuit of happiness and just be happy</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>in our daily life we must see that it is not happiness that makes us grateful, but gratefulness that makes us happy</Original_tweet>
     <Translate_tweet>in our daily life we must see that it is not happiness that makes us grateful, but gratefulness that makes us happy</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
-    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>nothing last forever, not even your problems #staypositive</Original_tweet>
     <Translate_tweet>nothing last forever, not even your problems #staypositive</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>above all, do not stop</Original_tweet>
     <Translate_tweet>above all, do not stop</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>no more effort is required to aim high in life, to demand abundance and prosperity, than is required to accept misery and poverty</Original_tweet>
     <Translate_tweet>no more effort is required to aim high in life, to demand abundance and prosperity, than is required to accept misery and poverty</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>success come to those who become success conscious</Original_tweet>
     <Translate_tweet>success come to those who become success conscious</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>one small positive thought in the morning can change your whole day</Original_tweet>
     <Translate_tweet>one small positive thought in the morning can change your whole day</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>a year from now you will wish you had started today</Original_tweet>
     <Translate_tweet>a year from now you will wish you had started today</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>never give up on a dream because of the time it'll take to accomplish. the time will pass anyway</Original_tweet>
     <Translate_tweet>never give up on a dream because of the time it'll take to accomplish. the time will pass anyway</Translate_tweet>
-    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
-    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>under any circumstance, simply do your best, and you will avoid self-judgment, self-abuse, and regret</Original_tweet>
     <Translate_tweet>under any circumstance, simply do your best, and you will avoid self-judgment, self-abuse, and regret</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>combining curiosity and hope can yield extraordinary results</Original_tweet>
     <Translate_tweet>combining curiosity and hope can yield extraordinary results</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>find the good and praise it</Original_tweet>
     <Translate_tweet>find the good and praise it</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>what you do today can improve all your tomorrows</Original_tweet>
     <Translate_tweet>what you do today can improve all your tomorrows</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>every bad situation will have something positive. even a dead clock shows correct time twice a day. stay positive in life</Original_tweet>
     <Translate_tweet>every bad situation will have something positive. even a dead clock shows correct time twice a day. stay positive in life</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>the future can't be predicted, but it can be envisioned and brought lovingly into being</Original_tweet>
     <Translate_tweet>the future can't be predicted, but it can be envisioned and brought lovingly into being</Translate_tweet>
-    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>celebrate the progress you are making in life</Original_tweet>
     <Translate_tweet>celebrate the progress you are making in life</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>every pro was once an amateur.  every expert was once a beginner.  dream big and start now</Original_tweet>
     <Translate_tweet>every pro was once an amateur.  every expert was once a beginner.  dream big and start now</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>no shortcuts. work for it</Original_tweet>
     <Translate_tweet>no shortcuts. work for it</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>in god i trust</Original_tweet>
     <Translate_tweet>in god i trust</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>i am too positive to be doubtful, too optimistic to be fearful, and too determined to be defeated</Original_tweet>
     <Translate_tweet>i am too positive to be doubtful, too optimistic to be fearful, and too determined to be defeated</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>life is full of give and take. give thanks and take nothing for granted</Original_tweet>
     <Translate_tweet>life is full of give and take. give thanks and take nothing for granted</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>do not regret growing older.  it is a privilege denied to many</Original_tweet>
     <Translate_tweet>do not regret growing older.  it is a privilege denied to many</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>you were given this life because you are strong enough to live it</Original_tweet>
     <Translate_tweet>you were given this life because you are strong enough to live it</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>people say "just be yourself" obviously they don't know me.</Original_tweet>
     <Translate_tweet>people say "just be yourself" obviously they don't know me.</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>i'm so scared. please just hold me.</Original_tweet>
     <Translate_tweet>i'm so scared. please just hold me.</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>i wan things to be back the way they used to be.</Original_tweet>
     <Translate_tweet>i wan things to be back the way they used to be.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>why did you changed?</Original_tweet>
     <Translate_tweet>why did you changed?</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>i wanna pull the trigger.</Original_tweet>
     <Translate_tweet>i wanna pull the trigger.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>i don't miss him, i miss who i thought he was.</Original_tweet>
     <Translate_tweet>i don't miss him, i miss who i thought he was.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>nothing hurts more than realizing he meant everything to you, but you meant nothing to him.</Original_tweet>
     <Translate_tweet>nothing hurts more than realizing he meant everything to you, but you meant nothing to him.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>a million words would not bring you back, i know because i tried. neither would a million tears, i know because i cried.</Original_tweet>
     <Translate_tweet>a million words would not bring you back, i know because i tried. neither would a million tears, i know because i cried.</Translate_tweet>
-    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>you hurt me more than i deserve, how can you be so cruel? i love you more than you deserve, why am i such a fool?</Original_tweet>
     <Translate_tweet>you hurt me more than i deserve, how can you be so cruel? i love you more than you deserve, why am i such a fool?</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>while i was holding on, all you did was let go.</Original_tweet>
     <Translate_tweet>while i was holding on, all you did was let go.</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>if you love me so much, why are you walking away?</Original_tweet>
     <Translate_tweet>if you love me so much, why are you walking away?</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>i gave you everything, but it wasn't enough to make you stay.</Original_tweet>
     <Translate_tweet>i gave you everything, but it wasn't enough to make you stay.</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>our sweetest songs are those that tell of the saddest thoughts.</Original_tweet>
     <Translate_tweet>our sweetest songs are those that tell of the saddest thoughts.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>the hardest thing to do is waking up without you.</Original_tweet>
     <Translate_tweet>the hardest thing to do is waking up without you.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>we always ignore the ones who adore us, and adore those who ignore us.</Original_tweet>
     <Translate_tweet>we always ignore the ones who adore us, and adore those who ignore us.</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>as soon as forever is through, i'll be over you.</Original_tweet>
     <Translate_tweet>as soon as forever is through, i'll be over you.</Translate_tweet>
-    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
-    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Sentiment_nostem>OBJECTIVE</Sentiment_nostem>
+    <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>when my absence doesn't alter your life, then my presence has no meaning in it.</Original_tweet>
     <Translate_tweet>when my absence doesn't alter your life, then my presence has no meaning in it.</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>relationships are like glass. sometimes it's better to leave them broken than try to hurt yourself putting it back together.</Original_tweet>
     <Translate_tweet>relationships are like glass. sometimes it's better to leave them broken than try to hurt yourself putting it back together.</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
-    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>i hate being second to those i put first.</Original_tweet>
     <Translate_tweet>i hate being second to those i put first.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>it hurts to let go, but sometimes it hurts more to hold on.</Original_tweet>
     <Translate_tweet>it hurts to let go, but sometimes it hurts more to hold on.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>i hate the way that, even though i've moved on, you still sneak into my mind.</Original_tweet>
     <Translate_tweet>i hate the way that, even though i've moved on, you still sneak into my mind.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>it's hard to take a role in someone's life when you're not even part of the script.</Original_tweet>
     <Translate_tweet>it's hard to take a role in someone's life when you're not even part of the script.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>the hardest things to let go of are the things you never really had.</Original_tweet>
     <Translate_tweet>the hardest things to let go of are the things you never really had.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>waiting for you is like waiting for rain in a drought - useless and disappointing.</Original_tweet>
     <Translate_tweet>waiting for you is like waiting for rain in a drought - useless and disappointing.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>one of the worst things that can happen to a person is to be forgotten by someone they will never forget.</Original_tweet>
     <Translate_tweet>one of the worst things that can happen to a person is to be forgotten by someone they will never forget.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>i dont know why they call it heartbreak. it feels like every part of my body is broken too.</Original_tweet>
     <Translate_tweet>i dont know why they call it heartbreak. it feels like every part of my body is broken too.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>the hardest part of dreaming about someone you love is having to wake up.</Original_tweet>
     <Translate_tweet>the hardest part of dreaming about someone you love is having to wake up.</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>clowns wear a face that's painted intentionally on them so they appear to be happy or sad. what kind of mask are you wearing today?</Original_tweet>
     <Translate_tweet>clowns wear a face that's painted intentionally on them so they appear to be happy or sad. what kind of mask are you wearing today?</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>usually when people are sad, they don't do anything. they just cry over their condition. but when they get angry, they bring about a change.</Original_tweet>
     <Translate_tweet>usually when people are sad, they don't do anything. they just cry over their condition. but when they get angry, they bring about a change.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>better never to have met you in my dream than to wake and reach for hands that are not there.</Original_tweet>
     <Translate_tweet>better never to have met you in my dream than to wake and reach for hands that are not there.</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>ever has it been that love knows not its own depth until the hour of separation.</Original_tweet>
     <Translate_tweet>ever has it been that love knows not its own depth until the hour of separation.</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>i miss you more than words can say</Original_tweet>
     <Translate_tweet>i miss you more than words can say</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>i wish i could be good enough.</Original_tweet>
     <Translate_tweet>i wish i could be good enough.</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>i have a eating disorder, but no one would ever notice that i need help. who would believe the fat kid anyway?</Original_tweet>
     <Translate_tweet>i have a eating disorder, but no one would ever notice that i need help. who would believe the fat kid anyway?</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>it's been so long. we've seen other people. but i still cry when i think of us. i guess letting go is harder than i thought.</Original_tweet>
     <Translate_tweet>it's been so long. we've seen other people. but i still cry when i think of us. i guess letting go is harder than i thought.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>sometimes all i see is the pain in your eyes</Original_tweet>
     <Translate_tweet>sometimes all i see is the pain in your eyes</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>i lie awake missing your arms, wishing i was in them</Original_tweet>
     <Translate_tweet>i lie awake missing your arms, wishing i was in them</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>why do i feel so alone?</Original_tweet>
     <Translate_tweet>why do i feel so alone?</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>why is your ego and pride more important than your love for me?</Original_tweet>
     <Translate_tweet>why is your ego and pride more important than your love for me?</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>you let me stay in my misery</Original_tweet>
     <Translate_tweet>you let me stay in my misery</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>no you wouldn't. you would just let me cry</Original_tweet>
     <Translate_tweet>no you wouldn't. you would just let me cry</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>you don't care. you don't care at all.</Original_tweet>
     <Translate_tweet>you don't care. you don't care at all.</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>i hate this world.</Original_tweet>
     <Translate_tweet>i hate this world.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>why are you so mean?</Original_tweet>
     <Translate_tweet>why are you so mean?</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>best friends is just another word for betrayal</Original_tweet>
     <Translate_tweet>best friends is just another word for betrayal</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>fake people. fake world. i hate the world</Original_tweet>
     <Translate_tweet>fake people. fake world. i hate the world</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>sometimes surviving is the worst kind of pain.</Original_tweet>
     <Translate_tweet>sometimes surviving is the worst kind of pain.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>today is a bad day </Original_tweet>
     <Translate_tweet>today is a bad day </Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>i'm so sorry, i've been awful </Original_tweet>
     <Translate_tweet>i'm so sorry, i've been awful </Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>i hate you, you're so rude! </Original_tweet>
     <Translate_tweet>i hate you, you're so rude! </Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <Precision_recall>
     <POSITIVE>
-      <Precision>59.65%</Precision>
-      <Recall>68.0%</Recall>
+      <Precision>62.07%</Precision>
+      <Recall>72.0%</Recall>
     </POSITIVE>
     <NEGATIVE>
-      <Precision>64.29%</Precision>
+      <Precision>67.5%</Precision>
       <Recall>54.0%</Recall>
     </NEGATIVE>
     <POSITIVE_STEMMED>
-      <Precision>62.75%</Precision>
-      <Recall>64.0%</Recall>
+      <Precision>66.04%</Precision>
+      <Recall>70.0%</Recall>
     </POSITIVE_STEMMED>
     <NEGATIVE_STEMMED>
-      <Precision>61.36%</Precision>
+      <Precision>65.85%</Precision>
       <Recall>54.0%</Recall>
     </NEGATIVE_STEMMED>
   </Precision_recall>

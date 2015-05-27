@@ -6,300 +6,350 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
     <Translate_tweet>Today everything goes wrong!</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>a giocare a calcio mi sono storto una caviglia, accidenti! </Original_tweet>
     <Translate_tweet>playing football I twisted an ankle, damn!</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>sono davvero desolato di non poter più vedere llr tutti i giorni </Original_tweet>
     <Translate_tweet>I'm really sorry for not being able to see LLR every day</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>oggi la corriera era in ritardo di 50 minuti, sono infuriata </Original_tweet>
     <Translate_tweet>Today the bus was delayed by 50 minutes are angry</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>mia sorella mi ha tirato i capelli e mi ha fatto molto male </Original_tweet>
     <Translate_tweet>my sister has pulled her hair and made me very ill</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>sono disperato perchè non trovo più le chiavi della macchina </Original_tweet>
     <Translate_tweet>I'm desperate because I can not find my car keys</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>sono davvero arrabbiata perchè mi hanno rubato la borsa</Original_tweet>
     <Translate_tweet>I'm really angry because they stole the bag</Translate_tweet>
-    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>sono triste perchè il programma non capisce l'ironia </Original_tweet>
     <Translate_tweet>I'm sad because the program does not understand the irony</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>sono stufa di scrivere frasi random per popolare il database</Original_tweet>
     <Translate_tweet>I'm sick of writing random sentences to populate the database</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>quando non ci si può guadagnare il pane, si perde la dignità. questo è un dramma di oggi, specialmente per i giovani </Original_tweet>
     <Translate_tweet>when you can not earn your bread, you lose your dignity. This is a drama of today, especially for young people</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>se noi siamo troppo attaccati alla ricchezza, non siamo liberi. siamo schiavi </Original_tweet>
     <Translate_tweet>if we are too attached to the wealth, we are not free. we are slaves</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>alitalia divorzia da air france: nel 2017 fine della partnership </Original_tweet>
     <Translate_tweet>alitalia divorces air france: in 2017 the end of the partnership</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>il 96% delle aziende confiscate alla mafia fallisce. servono manager adeguati </Original_tweet>
     <Translate_tweet>96% of businesses confiscated from the mafia fails. managers need adequate</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>in sei anni di crisi poveri cresciuti da 11 a 15 milioni </Original_tweet>
     <Translate_tweet>in six years of crisis poor grew from 11 million to 15 million</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>sono vicino alle famiglie delle vittime e dei feriti e ai nostri uomini in divisa rimasti coinvolti oggi nella sparatoria a napoli </Original_tweet>
     <Translate_tweet>They are close to the families of those killed and injured and to our men in uniform were involved in the shooting today in Naples</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>oggi nel kebab c'erano dei capelli, che schifo </Original_tweet>
     <Translate_tweet>today in the kebab he had hair, yuck</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>nepal, nuovo terremoto di magnitudo 7.4 </Original_tweet>
     <Translate_tweet>nepal, new earthquake of magnitude 7.4</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>molotov e bombe carta dai black bloc, un disastro a milano </Original_tweet>
     <Translate_tweet>molotov bombs and paper by black bloc, a disaster in milan</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>scuola: 5 per mille stralciato dalla riforma </Original_tweet>
     <Translate_tweet>school: 5 per thousand dropped by the reform</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>non passerò mai analisi matematica 1 </Original_tweet>
     <Translate_tweet>I would never pass calculus 1</Translate_tweet>
-    <Sentiment_nostem>OBJECTIVE</Sentiment_nostem>
-    <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>mia mamma è morta e sono tristissima, ho pianto tutto il giorno </Original_tweet>
     <Translate_tweet>My mother died and are sad, I cried all day</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>carpi: vola a terra dalla giostra, ferita bambina di 9 anni</Original_tweet>
     <Translate_tweet>carpi fly to earth from the carousel, wound 9 year old</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>È la quarta rapina,ora le botte. adesso ho paura</Original_tweet>
     <Translate_tweet>It is the fourth robbery, now the beating. Now I'm afraid</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>l’aereo si schianta: feriti i due piloti</Original_tweet>
     <Translate_tweet>the plane crashes: two injured riders</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>rapine violente: arrestati i due banditi</Original_tweet>
     <Translate_tweet>violent robberies: the two bandits arrested</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>si schianta aereo ultraleggero, due feriti gravi a pavullo</Original_tweet>
     <Translate_tweet>Ultralight plane crashes, two seriously injured in pavullo</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>plus on aime, plus on souffre. la somme des douleurs possibles pour chaque âme est proportionnelle à son degré de perfection</Original_tweet>
     <Translate_tweet>the more you love, the more we suffer. the amount of pain possible for every soul is proportional to its degree of perfection</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>si un humain n'est pas capable de percevoir la douleur d'un autre, il serait justifié de lui retirer sa qualité d'homme.</Original_tweet>
     <Translate_tweet>if a human being is not able to perceive the pain of another, it would be justified to dismiss him as a man.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>si notre coeur ne répond pas à la joie suprême il répond à la douleur suprême.</Original_tweet>
     <Translate_tweet>if our heart does not respond to the supreme joy it meets the Supreme pain.</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>la mort est une valeur invariable alors que la douleur est une variable susceptible de croître indéfiniment.</Original_tweet>
     <Translate_tweet>death is a fixed value so that pain is a variable that to grow indefinitely.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>nos douleurs ennuient ceux qu'elles n'attristent pas.</Original_tweet>
     <Translate_tweet>our sorrows bore those they do not sadden.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>l’une des plus grandes douleurs est d’aimer une personne que tu ne peux pas avoir.</Original_tweet>
     <Translate_tweet>one of the greatest pain is to love someone you can not have.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>le silence c'est aussi la douleurs d'être rester seul trop longtemps.</Original_tweet>
     <Translate_tweet>silence is also the pain of being left alone too long.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>on dit souvent que le temps guérit les blessures. je ne suis pas d'accord. les blessures demeurent intactes.</Original_tweet>
     <Translate_tweet>often said that time heals wounds. I do not agree. injuries remain intact.</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>la douleur qui se tait n'en est que plus funeste.</Original_tweet>
     <Translate_tweet>pain that is silent is all the more fatal.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>les grandes douleurs sont muettes.</Original_tweet>
     <Translate_tweet>great sorrows are mute.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>wenn ich die wahl habe zwischen dem nichts und dem schmerz, dann wähle ich den schmerz.</Original_tweet>
     <Translate_tweet>if I have the choice between nothing and the pain, then I choose the pain.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>wir streben mehr danach, schmerz zu vermeiden als freude zu gewinnen.</Original_tweet>
     <Translate_tweet>we strive more after that to avoid pain than to gain pleasure.</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>das leben ist voller leid, krankheit, schmerz – und zu kurz ist</Original_tweet>
     <Translate_tweet>life is full of suffering, sickness, pain - and is too short</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>polemica sull'immigrazione, renzi: "da psicanalisi chi critica il fermo"</Original_tweet>
     <Translate_tweet>debate on immigration, renzi "by psychoanalysis critics latch"</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>in strada corpi decapitati di soldati siriani </Original_tweet>
     <Translate_tweet>in road decapitated bodies of Syrian soldiers</Translate_tweet>
     <Sentiment_nostem>OBJECTIVE</Sentiment_nostem>
     <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>l'esercito si ritira e bombarda zona monumentale</Original_tweet>
     <Translate_tweet>the army retreats and bombards monumental area</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>gli usa inviano armi pesanti a iraq, arabia saudita e isreale</Original_tweet>
     <Translate_tweet>the usa send heavy weapons in Iraq, Saudi Arabia and Isreal</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>scuola, sindacati confermano lo sciopero un'ora di protesta nei 2 giorni di scrutini</Original_tweet>
     <Translate_tweet>school, unions confirm hour protest strike in two days of ballots</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>e la fascia più bassa ha sentito di più la crisi</Original_tweet>
     <Translate_tweet>and the lower end has felt the crisis more</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>guerre, tortura, razzismo e censura 2015 l'anno zero dei diritti umani</Original_tweet>
     <Translate_tweet>wars, torture, racism and censorship in 2015 the year zero of human rights</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>lucca, non si apre il paracadute muore in esercitazione giovane alpino</Original_tweet>
     <Translate_tweet>Lucca, does not open the parachute dies in training young Alpine</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>maltempo, a vercelli automobilista schiacciato  e ucciso da albero caduto</Original_tweet>
     <Translate_tweet>bad weather, in vercelli motorist crushed and killed by fallen tree</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>genova, in ospedale operaio sfiorato dal fulmine</Original_tweet>
     <Translate_tweet>genoa, hospital worker touched by lightning</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
     <Original_tweet>sono desolato, ma non sono riuscito a risolvere il problema </Original_tweet>
     <Translate_tweet>I am sorry, but I could not solve the problem</Translate_tweet>
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
   </tweet>
   <Precision_recall>
     <NEGATIVE>
@@ -308,7 +358,7 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
     </NEGATIVE>
     <NEGATIVE_STEMMED>
       <Precision>100.0%</Precision>
-      <Recall>58.0%</Recall>
+      <Recall>60.0%</Recall>
     </NEGATIVE_STEMMED>
   </Precision_recall>
 </tweet_collection>

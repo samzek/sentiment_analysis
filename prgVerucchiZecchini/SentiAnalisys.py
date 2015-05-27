@@ -14,28 +14,30 @@ def senti_analisys(tokens):
     count = 0
     for token,part in tokens:
 
-        scorePos = 0
-        scoreNeg = 0
-        scoreObj = 0
-        if swn.senti_synsets(token) != []:
-            list_synset = list(swn.senti_synsets(token))
-            dim_synset = list_synset.__len__()
+        if part.startswith("JJ") or part.startswith("NN") or part.startswith("VB"):
 
-            for i in list_synset:
-                scorePos += i.pos_score()
-                scoreNeg += i.neg_score()
-                scoreObj += i.obj_score()
+            scorePos = 0
+            scoreNeg = 0
+            scoreObj = 0
+            if swn.senti_synsets(token) != []:
+                list_synset = list(swn.senti_synsets(token))
+                dim_synset = list_synset.__len__()
 
-            scorePos = scorePos / dim_synset
-            scoreNeg = scoreNeg / dim_synset
-            scoreObj = scoreObj / dim_synset
+                for i in list_synset:
+                    scorePos += i.pos_score()
+                    scoreNeg += i.neg_score()
+                    scoreObj += i.obj_score()
 
-            #print token,scorePos,scoreNeg,scoreObj
+                scorePos = scorePos / dim_synset
+                scoreNeg = scoreNeg / dim_synset
+                scoreObj = scoreObj / dim_synset
 
-            scorePosTot += scorePos
-            scoreNegTot += scoreNeg
-            scoreObjTot += scoreObj
-        count += 1
+                #print token,scorePos,scoreNeg,scoreObj
+
+                scorePosTot += scorePos
+                scoreNegTot += scoreNeg
+                scoreObjTot += scoreObj
+            count += 1
 
     scorePosNorm = scorePosTot / count
     scoreNegNorm = scoreNegTot / count
