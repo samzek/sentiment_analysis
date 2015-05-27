@@ -6,6 +6,7 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
     <Translate_tweet>this is a test</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
   </tweet>
   <Precision_recall>
     <POSITIVE>

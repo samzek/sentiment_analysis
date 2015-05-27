@@ -10,6 +10,7 @@ def parse_XML(file,lang):
     rootel = dom.documentElement
     topnodes = rootel.childNodes
 
+
     for i in topnodes:
         child = i.childNodes
         if len(child) == 0:
@@ -19,6 +20,7 @@ def parse_XML(file,lang):
             for elem in descendant:
                 if elem.parentNode.nodeName == "Sentiment_nostem":
                     nostm = elem.nodeValue
+
                 elif elem.parentNode.nodeName == "Sentiment_stem":
                     stm = elem.nodeValue
                 elif elem.parentNode.nodeName == "Expected":
@@ -27,6 +29,8 @@ def parse_XML(file,lang):
                     org = elem.nodeValue
                 elif elem.parentNode.nodeName == "Translate_tweet":
                     trs = elem.nodeValue
+                else:
+                    nostm = exp = org = trs = stm = ""
 
         if nostm != exp or stm != exp:
             if lang != 'english':
@@ -39,4 +43,4 @@ def parse_XML(file,lang):
     return buf
 
 if __name__ == '__main__':
-    print parse_XML("results/PopeTweets100.xml")
+    print parse_XML("results/PopeTweets100.xml","english")

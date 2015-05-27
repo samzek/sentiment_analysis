@@ -6,7 +6,7 @@ from Preprocessing import Preprocess
 from SentiAnalisys import senti_analisys
 from GetTweet import returnTweets,returnMood,returnNNeg,returnNPos, returnDates
 from Plot import plotMoodline
-from xml_creator import *
+from XML_creator import *
 from lxml import etree as ET
 import sys
 from gi.repository import Gtk

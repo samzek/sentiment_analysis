@@ -50,7 +50,7 @@
               <object class="GtkEntry" id="entry1">
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
-                <property name="text" translatable="yes">Inserire il nome del test</property>
+                <property name="text" translatable="yes">Type file name here</property>
               </object>
               <packing>
                 <property name="expand">True</property>
