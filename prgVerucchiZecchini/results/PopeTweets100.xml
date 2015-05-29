@@ -4,7 +4,7 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
   <tweet>
     <Original_tweet>dio sempre ci aspetta, sempre ci capisce,  sempre ci perdona.</Original_tweet>
     <Translate_tweet>God awaits us always, always understand us, always forgives us.</Translate_tweet>
-    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
     <Expected>POSITIVE</Expected>
   </tweet>
@@ -103,11 +103,7 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
     <Original_tweet>il signore non si stanca mai di perdonarci. siamo noi che ci stanchiamo di chiedere perdono.</Original_tweet>
     <Translate_tweet>The Lord never tires to forgive. we who get tired of asking forgiveness.</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
-<<<<<<< HEAD
-    <Sentiment_stem>NEGATIVE</Sentiment_stem>
-=======
     <Sentiment_stem>POSITIVE</Sentiment_stem>
->>>>>>> 802870a8721a6dd52c4e048aa8c3348cd9b73750
     <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
@@ -358,7 +354,7 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
   <tweet>
     <Original_tweet>quante volte dimentichiamo di concentrarci su ciò che conta veramente! dimentichiamo di essere figli di dio.</Original_tweet>
     <Translate_tweet>how many times we forget to focus on what really matters! We forget that we are children of God.</Translate_tweet>
-    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
     <Expected>NEGATIVE</Expected>
   </tweet>
@@ -582,13 +578,8 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
   <tweet>
     <Original_tweet>l’amore è la misura della fede.</Original_tweet>
     <Translate_tweet>love is the measure of faith.</Translate_tweet>
-<<<<<<< HEAD
-    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
-    <Sentiment_stem>POSITIVE</Sentiment_stem>
-=======
     <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>OBJECTIVE</Sentiment_stem>
->>>>>>> 802870a8721a6dd52c4e048aa8c3348cd9b73750
     <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
@@ -705,20 +696,20 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
   </tweet>
   <Precision_recall>
     <POSITIVE>
-      <Precision>80.0%</Precision>
+      <Precision>81.16%</Precision>
       <Recall>77.78%</Recall>
     </POSITIVE>
     <NEGATIVE>
-      <Precision>46.43%</Precision>
-      <Recall>48.15%</Recall>
+      <Precision>48.28%</Precision>
+      <Recall>51.85%</Recall>
     </NEGATIVE>
     <POSITIVE_STEMMED>
-      <Precision>76.92%</Precision>
-      <Recall>69.44%</Recall>
+      <Precision>75.38%</Precision>
+      <Recall>68.06%</Recall>
     </POSITIVE_STEMMED>
     <NEGATIVE_STEMMED>
-      <Precision>37.5%</Precision>
-      <Recall>44.44%</Recall>
+      <Precision>35.48%</Precision>
+      <Recall>40.74%</Recall>
     </NEGATIVE_STEMMED>
   </Precision_recall>
 </tweet_collection>

@@ -88,7 +88,7 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
   <tweet>
     <Original_tweet>life becomes easier when you learn to accept an apology you never got</Original_tweet>
     <Translate_tweet>life becomes easier when you learn to accept an apology you never got</Translate_tweet>
-    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
     <Expected>POSITIVE</Expected>
   </tweet>
@@ -123,7 +123,7 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
   <tweet>
     <Original_tweet>anger, hatred and jealousy never solve problems, only affection, concern and respect can do that</Original_tweet>
     <Translate_tweet>anger, hatred and jealousy never solve problems, only affection, concern and respect can do that</Translate_tweet>
-    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
     <Expected>POSITIVE</Expected>
   </tweet>
@@ -159,7 +159,7 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
     <Original_tweet>never think that gods's delays are god's denials. hold on; hold fast; hold out. patience is genius</Original_tweet>
     <Translate_tweet>never think that gods's delays are god's denials. hold on; hold fast; hold out. patience is genius</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
-    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
     <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
@@ -201,7 +201,7 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
     <Original_tweet>in our daily life we must see that it is not happiness that makes us grateful, but gratefulness that makes us happy</Original_tweet>
     <Translate_tweet>in our daily life we must see that it is not happiness that makes us grateful, but gratefulness that makes us happy</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
-    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
     <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
@@ -249,8 +249,8 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
   <tweet>
     <Original_tweet>never give up on a dream because of the time it'll take to accomplish. the time will pass anyway</Original_tweet>
     <Translate_tweet>never give up on a dream because of the time it'll take to accomplish. the time will pass anyway</Translate_tweet>
-    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
-    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
     <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
@@ -291,7 +291,7 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
   <tweet>
     <Original_tweet>the future can't be predicted, but it can be envisioned and brought lovingly into being</Original_tweet>
     <Translate_tweet>the future can't be predicted, but it can be envisioned and brought lovingly into being</Translate_tweet>
-    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
     <Expected>POSITIVE</Expected>
   </tweet>
@@ -354,11 +354,11 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
   <Precision_recall>
     <POSITIVE>
       <Precision>100.0%</Precision>
-      <Recall>68.0%</Recall>
+      <Recall>72.0%</Recall>
     </POSITIVE>
     <POSITIVE_STEMMED>
       <Precision>100.0%</Precision>
-      <Recall>64.0%</Recall>
+      <Recall>70.0%</Recall>
     </POSITIVE_STEMMED>
   </Precision_recall>
 </tweet_collection>

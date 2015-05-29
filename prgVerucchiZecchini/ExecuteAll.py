@@ -8,7 +8,7 @@ from GetTweet import returnTweets,returnMood,returnNNeg,returnNPos, returnDates
 from Plot import plotMoodline
 from XML_creator import *
 from lxml import etree as ET
-import sys
+import time
 from gi.repository import Gtk
 
 def check(tweetValue,retrieved,intersection,realValue,t):
@@ -44,6 +44,13 @@ def calcPosAndNeg(file_input):
 
     return pos,neg
 
+def profile_start():
+    s = time.time()
+    return s
+def profile_stop(string,s1):
+    s = time.time() - s1
+    print "Function: "+string+":"+str(s)
+
 def ExecuteAll(file_input,file_output, plot):
 
     pos,neg = calcPosAndNeg(file_input)
@@ -66,14 +73,20 @@ def ExecuteAll(file_input,file_output, plot):
 
         tweetLower = t.lower()
 
+       # ret = profile_start()
         #language detection
         lng = get_language(tweetLower)
+        #profile_stop("get_language",ret)
 
         #translation
         if lng != 'english':
             try:
+                #ret = profile_start()
                 gs = goslate.Goslate()
+                #profile_stop("Goslate",ret)
+                #ret = profile_start()
                 translateTweet = gs.translate(tweetLower,'en')
+                #profile_stop("translate",ret)
             except Exception as e:
                 md = Gtk.MessageDialog(None, 0,Gtk.MessageType.ERROR,Gtk.ButtonsType.OK, "No connection found!")
                 md.run()
@@ -84,10 +97,14 @@ def ExecuteAll(file_input,file_output, plot):
             translateTweet = tweetLower
 
         #preprocessing
+        #ret = profile_start()
         tokens,tokens_stemmed =  Preprocess(translateTweet)
+        #profile_stop("Preprocess",ret)
 
+        #ret = profile_start()
         #SentiWordNet
         tweetValue,moodValue = senti_analisys(tokens)
+        #profile_stop("Senti analisys",ret)
 
         if pos:
             retrieved[0],intersection[0] = check(tweetValue,retrieved[0],intersection[0],int(mood[count]),1)

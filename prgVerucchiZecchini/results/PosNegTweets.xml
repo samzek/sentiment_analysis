@@ -159,11 +159,7 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
     <Original_tweet>never think that gods's delays are god's denials. hold on; hold fast; hold out. patience is genius</Original_tweet>
     <Translate_tweet>never think that gods's delays are god's denials. hold on; hold fast; hold out. patience is genius</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
-<<<<<<< HEAD
-    <Sentiment_stem>NEGATIVE</Sentiment_stem>
-=======
     <Sentiment_stem>POSITIVE</Sentiment_stem>
->>>>>>> 802870a8721a6dd52c4e048aa8c3348cd9b73750
     <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
@@ -205,11 +201,7 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
     <Original_tweet>in our daily life we must see that it is not happiness that makes us grateful, but gratefulness that makes us happy</Original_tweet>
     <Translate_tweet>in our daily life we must see that it is not happiness that makes us grateful, but gratefulness that makes us happy</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
-<<<<<<< HEAD
-    <Sentiment_stem>NEGATIVE</Sentiment_stem>
-=======
     <Sentiment_stem>POSITIVE</Sentiment_stem>
->>>>>>> 802870a8721a6dd52c4e048aa8c3348cd9b73750
     <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
@@ -257,13 +249,8 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
   <tweet>
     <Original_tweet>never give up on a dream because of the time it'll take to accomplish. the time will pass anyway</Original_tweet>
     <Translate_tweet>never give up on a dream because of the time it'll take to accomplish. the time will pass anyway</Translate_tweet>
-<<<<<<< HEAD
-    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
-    <Sentiment_stem>NEGATIVE</Sentiment_stem>
-=======
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
     <Sentiment_stem>POSITIVE</Sentiment_stem>
->>>>>>> 802870a8721a6dd52c4e048aa8c3348cd9b73750
     <Expected>POSITIVE</Expected>
   </tweet>
   <tweet>
@@ -472,13 +459,8 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
   <tweet>
     <Original_tweet>as soon as forever is through, i'll be over you.</Original_tweet>
     <Translate_tweet>as soon as forever is through, i'll be over you.</Translate_tweet>
-<<<<<<< HEAD
-    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
-    <Sentiment_stem>NEGATIVE</Sentiment_stem>
-=======
     <Sentiment_nostem>OBJECTIVE</Sentiment_nostem>
     <Sentiment_stem>OBJECTIVE</Sentiment_stem>
->>>>>>> 802870a8721a6dd52c4e048aa8c3348cd9b73750
     <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
@@ -492,11 +474,7 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
     <Original_tweet>relationships are like glass. sometimes it's better to leave them broken than try to hurt yourself putting it back together.</Original_tweet>
     <Translate_tweet>relationships are like glass. sometimes it's better to leave them broken than try to hurt yourself putting it back together.</Translate_tweet>
     <Sentiment_nostem>POSITIVE</Sentiment_nostem>
-<<<<<<< HEAD
-    <Sentiment_stem>POSITIVE</Sentiment_stem>
-=======
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
->>>>>>> 802870a8721a6dd52c4e048aa8c3348cd9b73750
     <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
