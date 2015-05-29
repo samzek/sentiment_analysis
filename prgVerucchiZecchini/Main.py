@@ -6,11 +6,11 @@ from DetectLanguage import get_language
 import goslate
 from Preprocessing import Preprocess
 from SentiAnalisys import  senti_analisys
-from ExecuteAll import ExecuteAll
+from ExecuteAll import ExecuteAll,profile_start,profile_stop
 from XML_parser import parse_XML
 import os
 import webbrowser
-
+import thread
 
 
 def on_delete_event(widget,event):
@@ -19,24 +19,33 @@ def on_delete_event(widget,event):
 
 
 def keyPress(widget, event):
+    val = profile_start()
     if event.keyval == 65293:
         sentence =  widget.get_text()
 
         sLower = sentence.lower()
 
+        ret = profile_start()
         lng = get_language(sLower)
+        profile_stop("detect ln: ",ret)
 
         try:
             if lng != 'english':
                 gs = goslate.Goslate()
+                ret = profile_start()
                 translateS = gs.translate(sLower,'en')
+                profile_stop("translate",ret)
 
             else:
                 translateS = sLower
 
+            ret = profile_start()
             tokens,tokens_stemmed =  Preprocess(translateS)
+            profile_stop("Prepocess",ret)
 
+            ret = profile_start()
             sValue,moodValue = senti_analisys(tokens)
+            profile_stop("senti",ret)
 
             if sValue ==1:
                 image.set_from_file("images/happy.png")
@@ -49,6 +58,7 @@ def keyPress(widget, event):
             md = Gtk.MessageDialog(None, 0,Gtk.MessageType.ERROR,Gtk.ButtonsType.OK, "No connection found!")
             md.run()
             md.destroy()
+        profile_stop("Totale",val)
 
 def nameInserted(widget, event):
 
@@ -148,6 +158,7 @@ def show_XML_results (event):
 
 
 def exec_test(event):
+    ret = profile_start()
     global last_file_open
     global lang
     model, treeiter = treeview.get_selection().get_selected()
@@ -168,9 +179,14 @@ def exec_test(event):
         buffer.set_text(buf)
 
         results.set_buffer(buffer)
+    profile_stop("exec",ret)
         #showXML.set_sensitive(True)
         #SentiError.set_sensitive(True)
+def cold_start_up():
+    fs,fs2 = Preprocess("this prg is beautiful")
+    pd = senti_analisys(fs)
 
+ret = profile_start()
 
 NewTestBuilder = Gtk.Builder()
 
@@ -220,6 +236,11 @@ results = builder.get_object("textview1")
 last_file_open = None
 lang = None
 
+#cold_start_up()
+
 window.show_all()
 window.connect("delete-event", Gtk.main_quit)
+profile_stop("Main",ret)
+
 Gtk.main()
+
