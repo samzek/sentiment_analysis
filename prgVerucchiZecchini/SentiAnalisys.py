@@ -41,6 +41,7 @@ def senti_analisys(tokens):
                 scorePosTot += scorePos
                 scoreNegTot += scoreNeg
                 scoreObjTot += scoreObj
+
             count += 1
 
     #if count != 0:

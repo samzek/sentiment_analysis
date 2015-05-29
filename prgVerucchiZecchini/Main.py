@@ -166,8 +166,9 @@ def exec_test(event):
         fin = 'db/'+ model[treeiter][0]+".txt"
         fout = 'results/'+model[treeiter][0]+".xml"
 
+
         last_file_open = fout
-        if model[treeiter][0] == "PopeTweets100":
+        if model[treeiter][0] == "PopeTweets100" or  model[treeiter][0] == "EnPopeTweets100":
             resCase,prList,reList,lang = ExecuteAll(fin,fout,True)
         else:
             resCase,prList,reList,lang = ExecuteAll(fin,fout,False)

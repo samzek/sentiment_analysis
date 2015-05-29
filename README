@@ -1,1 +1,45 @@
 Sentiment Analysis
+
+First of all you need to download and install nltk (http://www.nltk.org/install.html)
+
+	sudo easy_install pip 
+	sudo pip install -U numpy
+	sudo pip install -U nltk
+
+	Type in python's shell
+		import nltk
+		nltk.download()
+	Choose collection : book
+
+DETECT LANGUAGE TOOL (http://h6o6.com/2012/12/detecting-language-with-python-and-the-natural-language-toolkit-nltk/)
+
+	Type in python's shell
+		import nltk
+		nltk.download()
+	Choose packages : punkt, stopwords
+
+TRANSLATION TOOL (http://pythonhosted.org/goslate/)
+
+	pip install goslate	
+
+SENTIMENT ANALYSIS TOOL
+
+	Type in python's shell
+		import nltk
+		nltk.download()
+	Choose packages : sentiwordnet
+
+GRAPH
+
+	sudo apt-get install python-matplotlib
+
+XML CREATION
+
+	sudo apt-get install libxml2-dev libxslt1-dev python-dev
+
+GTK+3.0 for GUI:
+
+	In order to use GTK+ you need to install PyGObject:
+		sudo apt-cache search python object
+		sudo apt-get install python-gi
+		
