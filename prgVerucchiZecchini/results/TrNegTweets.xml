@@ -46,7 +46,7 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
   <tweet>
     <Original_tweet>sono davvero arrabbiata perchè mi hanno rubato la borsa</Original_tweet>
     <Translate_tweet>I'm really angry because they stole the bag</Translate_tweet>
-    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
     <Sentiment_stem>NEGATIVE</Sentiment_stem>
     <Expected>NEGATIVE</Expected>
   </tweet>
@@ -137,8 +137,8 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
   <tweet>
     <Original_tweet>non passerò mai analisi matematica 1 </Original_tweet>
     <Translate_tweet>I would never pass calculus 1</Translate_tweet>
-    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
-    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Sentiment_nostem>OBJECTIVE</Sentiment_nostem>
+    <Sentiment_stem>OBJECTIVE</Sentiment_stem>
     <Expected>NEGATIVE</Expected>
   </tweet>
   <tweet>
@@ -358,7 +358,7 @@ xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
     </NEGATIVE>
     <NEGATIVE_STEMMED>
       <Precision>100.0%</Precision>
-      <Recall>60.0%</Recall>
+      <Recall>58.0%</Recall>
     </NEGATIVE_STEMMED>
   </Precision_recall>
 </tweet_collection>

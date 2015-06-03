@@ -1,0 +1,617 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tweet_collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="tweet_collection.xsd">
+  <tweet>
+    <Original_tweet>god is always waiting for us, he always understands us, he always forgives us.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>it is better to have a church that is wounded but out in the streets than a church that is sick because it is closed in on itself.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>dear parents, have great patience, and forgive from the depths of your heart.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>why is it so difficult to tolerate the faults of others?  have we forgotten that jesus bore our sins?</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>let us learn to live with kindness, to love everyone, even when they do not love us.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>when we cannot earn our own bread, we lose our dignity.  this is a tragedy today, especially for the young.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>it is good for us to spend time before the tabernacle, to feel the gaze of jesus upon us.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>the love of christ fills our hearts and makes us always able to forgive!</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>amid so many problems, even grave, may we not lose our hope in the infinite mercy of god.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>every christian community must be a welcoming home for those searching for god,for those searching for a brother or sister to listen to them</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>we christians are called to go out of ourselves to bring the mercy and tenderness of god to all.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>in the sacraments we discover the strength to think and to act according to the gospel.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>we need to care for the earth so that it may continue, as god willed, to be a source of life for the entire human family.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>mary,mother of sorrows, help us to understand god's will in moments of great suffering</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>the lord never tires of forgiving us.  it is we who get tired of asking for pardon.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>we can bring the gospel to others only if it has made a deep impact in our lives.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>lord, give us the gift of tears, the ability to cry for our sins and so receive your forgiveness.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>lord, help us to live the virtue of generosity, to love without limits.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>christ is risen!  christ is alive and journeys with us!</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>the cross of christ is not a defeat: the cross is love and mercy.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>jesus washes the feet of the apostles.  are we ready to serve others like this?</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>confession is the sacrament of the tenderness of god, his way of embracing us.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>holy week is a privileged time when we are called to draw near to jesus: friendship with him is shown in times of difficulty.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>as disciples of christ, how can we not be concerned for the good of the weakest?</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>life is a precious gift, but we realize this only when we give it to others.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>the laity are called to become a leaven of christian living within society.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>suffering is a call to conversion: it reminds us of our frailty and vulnerability.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>may every church and christian community be a place of mercy amid so much indifference.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>let us allow god to fill our hearts with his goodness and mercy.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>lent is a time for drawing near to christ by listening to the word of god and celebrating the sacraments.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>beware of getting too comfortable! when we are comfortable, it's easy to forget other people</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>in the roughest moments, remember: god is our father; god does not abandon his children.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>humility saves man: pride makes him lose his way.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>let us build our lives of faith on the rock who is christ.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>if we are too attached to riches, we are not free.  we are slaves.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>the heart grows hard when it does not love.  lord, give us a heart that knows how to love.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>jesus intercedes for us each day.  let us pray: lord, have mercy on me; intercede for me!</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>there is no sin that god cannot pardon.  all we need to do is ask for forgiveness.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>the sacraments are the manifestation of the father's tenderness and love towards each of us</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>wherever there are men and women who have consecrated their lives to god, there you find joy.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>lord, grant us the grace to know we are sinners.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>during lent, let us find concrete ways to overcome our indifference.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>jesus came to bring joy to everyone in every age.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>jesus is not a figure from the past: he continues now and always to light the way for us.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>having faith does not mean having no difficulties, but having the strength to face them, knowing we are not alone.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>we are all sinners.  we are all called to a conversion of heart.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>true love does not pay attention to the evil it suffers.  it rejoices in doing good.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>auschwitz cries out with the pain of immense suffering and pleads for a future of respect, peace and encounter among peoples.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>practicing charity is the best way to evangelize.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>to my friends in sri lanka and the philippines: may god bless you all!  please pray for me.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>how often we forget to dedicate ourselves to that which truly matters!  we forget that we are children of god.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>we who are christians, members of god' family, are called to go out to the needy and to serve them</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>the compassion of god, his suffering-with-us, gives meaning and worth to our struggles and our sufferings.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>the family is the greatest treasure of any country.  let us all work to protect and strengthen this, the cornerstone of society.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>the philippines bear witness to the youthfulness and vitality of the church.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>may god bless and protect sri lanka.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>saint joseph vaz, teach us to grow in holiness and to live the gospel's message of mercy</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>please pray with me for everyone in sri lanka and the philippines as i begin my trip.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>sunday is the lord's day. let us find time to be with him</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>jesus came to save us: let us not reject this marvellous gift!</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>lord, help us to recognize you in the sick, poor and suffering.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>christianity spreads through the joy of disciples who know that they are loved and saved.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>how many innocent people and children suffer in the world! lord, grant us your peace!</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>lord, thank you!</Original_tweet>
+    <Sentiment_nostem>OBJECTIVE</Sentiment_nostem>
+    <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>today people are suffering from poverty, but also from lack of love.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>the christian family is missionary: it announces the love of god to the world.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>let us pray today for all those who are persecuted for their christian faith.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>with jesus there is true joy.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>may we try to listen and be silent in order to make space for the beauty of god.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>at times we are slaves of sin.  lord, come to free us!</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>if jesus is to become the centre of our life, we need to spend time in his presence, before the tabernacle.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>the lord put it clearly: you cannot serve two masters.  you have to choose between god and money.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>it is so important to listen!  husbands and wives need to communicate to bring happiness and serenity to family life.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>today is my anniversary of ordination to the priesthood. please pray for me and all priests.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>our lady of guadalupe, pray for us!</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>ecology is essential for the survival of mankind; it is a moral issue which affects all of us.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>the family is a community of love where each of us learns to relate to others and to the world around us.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>let us learn from the virgin mary how to be bolder in obeying the word of god.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>advent begins a new journey.  may mary, our mother, be our guide.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>advent increases our hope, a hope which does not disappoint.  the lord never lets us down.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>slaves no more. we are all brothers and sisters. #endslavery</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>the church is called to draw near to every person, beginning with the poorest and those who suffer.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>love is the measure of faith.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>OBJECTIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>when we meet a person truly in need, do we see the face of god?</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>let us seek to live in a way that is always worthy of our christian vocation.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>there is so much noise in the world! may we learn to be silent in our hearts and before god.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>a christian brings peace to others. not only peace, but also love, kindness, faithfulness and joy.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>war destroys, kills, impoverishes. lord, give us your peace!</Original_tweet>
+    <Translate_tweet>war destroys, kills, impoverishes. lord, give us your peace!</Translate_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>work is so important for human dignity, for building up a family, for peace!</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>i ask all people of goodwill to help build a culture of encounter, solidarity and peace. #fotw25</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>the church is ever on a journey, seeking new ways to announce the gospel.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>indifference towards those in need is not acceptable for a christian.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>being humble helps us share the burdens of others.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>a good example brings about so much good, but hypocrisy brings about much evil.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>NEGATIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>the principal mission of the church is evangelization, bringing the good news to everyone.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>may we help people to discover the joy of the christian message: a message of love and mercy.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>jesus' cross shows the full force of evil, but also the full power of god's mercy.</Original_tweet>
+    <Sentiment_nostem>NEGATIVE</Sentiment_nostem>
+    <Sentiment_stem>NEGATIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>the family is where we are formed as people.  every family is a brick in the building of society.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <tweet>
+    <Original_tweet>if faith is to be strong and healthy, it must be constantly nourished by the word of god.</Original_tweet>
+    <Sentiment_nostem>POSITIVE</Sentiment_nostem>
+    <Sentiment_stem>POSITIVE</Sentiment_stem>
+    <Expected>POSITIVE</Expected>
+  </tweet>
+  <Precision_recall>
+    <POSITIVE>
+      <Precision>78.79%</Precision>
+      <Recall>72.22%</Recall>
+    </POSITIVE>
+    <NEGATIVE>
+      <Precision>40.63%</Precision>
+      <Recall>48.15%</Recall>
+    </NEGATIVE>
+    <POSITIVE_STEMMED>
+      <Precision>77.42%</Precision>
+      <Recall>66.67%</Recall>
+    </POSITIVE_STEMMED>
+    <NEGATIVE_STEMMED>
+      <Precision>38.24%</Precision>
+      <Recall>48.15%</Recall>
+    </NEGATIVE_STEMMED>
+  </Precision_recall>
+</tweet_collection>

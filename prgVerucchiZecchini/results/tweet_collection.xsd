@@ -11,11 +11,11 @@
 <xs:element name="tweet">
     <xs:complexType>
         <xs:sequence>
-            <xs:element name="Original_tweet" type="xs:string"/>
-            <xs:element name="Translate_tweet" type="xs:string"/>
-            <xs:element name="Sentiment_nostem" type="xs:string"/>
-            <xs:element name="Sentiment_stem" type="xs:string"/>
-            <xs:element name="Expected" type="xs:string"/>
+            <xs:element name="Original_tweet" type="xs:string" minOccurs="1"/>
+            <xs:element name="Translate_tweet" type="xs:string" minOccurs="0"/>
+            <xs:element name="Sentiment_nostem" type="xs:string" minOccurs="1"/>
+            <xs:element name="Sentiment_stem" type="xs:string" minOccurs="1"/>
+            <xs:element name="Expected" type="xs:string" minOccurs="1"/>
         </xs:sequence>
 </xs:complexType>
 </xs:element>
